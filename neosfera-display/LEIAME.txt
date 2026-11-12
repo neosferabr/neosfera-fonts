@@ -1,0 +1,14 @@
+Neosfera Display · v1.000 · desenho original Neosfera
+
+Para instalar no computador (Figma, Canva, Office, Adobe): use os 3 arquivos da pasta ttf:
+  NeosferaDisplay-Regular.ttf
+  NeosferaDisplay-Bold.ttf
+  NeosferaDisplay-Black.ttf
+
+Para sites: use a pasta woff2 (@font-face com font-weight 400, 700 e 900).
+Pacote Google Fonts: ../google-fonts/ofl/neosferadisplay/
+
+Características do desenho:
+- Família condensada sem serifa para títulos, manchetes e peças digitais, construída pelo motor paramétrico Neosfera.
+- Hastes: Regular 92, Bold 112, Black 134 (compensação óptica de largura e miolos nos pesos pesados).
+- 363 glifos cobrindo 100% do conjunto Google Fonts Latin Core (GF_Latin_Core) + Latin Extended-A, ligaturas (fi, fl) e kerning por classes OpenType.

@@ -1,0 +1,18 @@
+Neosfera Sans · v1.000 · desenho original Neosfera
+
+Para instalar no computador (Figma, Canva, Office, Adobe): use os 6 arquivos da pasta ttf:
+  NeosferaSans-Light.ttf
+  NeosferaSans-LightItalic.ttf
+  NeosferaSans-Regular.ttf
+  NeosferaSans-Italic.ttf
+  NeosferaSans-Bold.ttf
+  NeosferaSans-BoldItalic.ttf
+
+Para sites: use a pasta woff2 (@font-face com font-weight 300/400/700 e font-style normal/italic).
+Pacote Google Fonts: ../google-fonts/ofl/neosferasans/
+
+Características do desenho:
+- Versão grotesca limpa (sem meia-serifa) gerada pelo mesmo motor paramétrico da Neosfera Serif.
+- Preserva o 'a' de dois andares (romano e itálico), caudas em gancho reto de g, j, y e J, pingos quadrados e cantos levemente arredondados.
+- 363 glifos cobrindo 100% do conjunto Google Fonts Latin Core (GF_Latin_Core) + Latin Extended-A, ligaturas (fi, fl) e kerning por classes OpenType.
+

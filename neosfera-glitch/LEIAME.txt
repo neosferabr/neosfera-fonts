@@ -1,0 +1,20 @@
+Neosfera Glitch & Neosfera Glitch Condensed · v1.000 · Neosfera
+
+Para instalar no computador (com suporte a Stylistic Sets OpenType ss01..ss04): pasta ttf:
+  NeosferaGlitch-Regular.ttf
+  NeosferaGlitch-Bold.ttf
+  NeosferaGlitchCondensed-Regular.ttf
+  NeosferaGlitchCondensed-Bold.ttf
+
+Recursos OpenType (Stylistic Sets):
+  Padrão = Glitch Estado 1
+  ss01   = Glitch Estado 2
+  ss02   = Glitch Estado 3
+  ss03   = Glitch Estado 4
+  ss04   = Estado Limpo (Dither sem fatiamento)
+
+Para softwares sem suporte a recursos OpenType: use os arquivos individuais da pasta estados/ (Neosfera Glitch 1..4 e Neosfera Glitch Condensed 1..4).
+Pacotes Google Fonts:
+  ../google-fonts/ofl/neosferaglitch/
+  ../google-fonts/ofl/neosferaglitchcondensed/
+

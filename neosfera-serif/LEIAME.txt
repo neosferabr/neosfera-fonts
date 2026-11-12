@@ -1,0 +1,17 @@
+Neosfera Serif · v1.000 · desenho original Neosfera
+
+Para instalar no computador (Figma, Canva, Office, Adobe): use os 6 arquivos da pasta ttf:
+  NeosferaSerif-Light.ttf
+  NeosferaSerif-LightItalic.ttf
+  NeosferaSerif-Regular.ttf
+  NeosferaSerif-Italic.ttf
+  NeosferaSerif-Bold.ttf
+  NeosferaSerif-BoldItalic.ttf
+
+Para sites: use a pasta woff2 (@font-face com font-weight 300/400/700 e font-style normal/italic).
+Pacote Google Fonts: ../google-fonts/ofl/neosferaserif/
+
+Características do desenho:
+- Meia-serifa unilateral (topo para trás, pé para frente) nas hastes verticais; I e 1 com serifa bilateral; diagonais sem serifa.
+- 'a' de dois andares tanto no romano quanto no itálico; caudas de g, j, y e J em gancho reto; pingos quadrados; cantos com raio leve.
+- 363 glifos cobrindo 100% do conjunto Google Fonts Latin Core (GF_Latin_Core) + Latin Extended-A, ligaturas (fi, fl) e kerning por classes OpenType.

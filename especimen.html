@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Neosfera Type System · Espécime Oficial (v1.000)</title>
+<style>
+/* 1. Neosfera Serif */
+@font-face { font-family: 'Neosfera Serif'; src: url('neosfera-serif/woff2/NeosferaSerif-Light.woff2') format('woff2'); font-weight: 300; font-style: normal; }
+@font-face { font-family: 'Neosfera Serif'; src: url('neosfera-serif/woff2/NeosferaSerif-LightItalic.woff2') format('woff2'); font-weight: 300; font-style: italic; }
+@font-face { font-family: 'Neosfera Serif'; src: url('neosfera-serif/woff2/NeosferaSerif-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; }
+@font-face { font-family: 'Neosfera Serif'; src: url('neosfera-serif/woff2/NeosferaSerif-Italic.woff2') format('woff2'); font-weight: 400; font-style: italic; }
+@font-face { font-family: 'Neosfera Serif'; src: url('neosfera-serif/woff2/NeosferaSerif-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; }
+@font-face { font-family: 'Neosfera Serif'; src: url('neosfera-serif/woff2/NeosferaSerif-BoldItalic.woff2') format('woff2'); font-weight: 700; font-style: italic; }
+
+/* 2. Neosfera Sans */
+@font-face { font-family: 'Neosfera Sans'; src: url('neosfera-sans/woff2/NeosferaSans-Light.woff2') format('woff2'); font-weight: 300; font-style: normal; }
+@font-face { font-family: 'Neosfera Sans'; src: url('neosfera-sans/woff2/NeosferaSans-LightItalic.woff2') format('woff2'); font-weight: 300; font-style: italic; }
+@font-face { font-family: 'Neosfera Sans'; src: url('neosfera-sans/woff2/NeosferaSans-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; }
+@font-face { font-family: 'Neosfera Sans'; src: url('neosfera-sans/woff2/NeosferaSans-Italic.woff2') format('woff2'); font-weight: 400; font-style: italic; }
+@font-face { font-family: 'Neosfera Sans'; src: url('neosfera-sans/woff2/NeosferaSans-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; }
+@font-face { font-family: 'Neosfera Sans'; src: url('neosfera-sans/woff2/NeosferaSans-BoldItalic.woff2') format('woff2'); font-weight: 700; font-style: italic; }
+
+/* 3. Neosfera Display */
+@font-face { font-family: 'Neosfera Display'; src: url('neosfera-display/woff2/NeosferaDisplay-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; }
+@font-face { font-family: 'Neosfera Display'; src: url('neosfera-display/woff2/NeosferaDisplay-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; }
+@font-face { font-family: 'Neosfera Display'; src: url('neosfera-display/woff2/NeosferaDisplay-Black.woff2') format('woff2'); font-weight: 900; font-style: normal; }
+
+/* 4. Neosfera Dither */
+@font-face { font-family: 'Neosfera Dither'; src: url('neosfera-dither/woff2/NeosferaDither-Regular.woff2') format('woff2'); font-weight: 400; }
+@font-face { font-family: 'Neosfera Dither'; src: url('neosfera-dither/woff2/NeosferaDither-Bold.woff2') format('woff2'); font-weight: 700; }
+
+/* 5. Neosfera Dither Condensed */
+@font-face { font-family: 'Neosfera Dither Condensed'; src: url('neosfera-dither-condensed/woff2/NeosferaDitherCondensed-Regular.woff2') format('woff2'); font-weight: 400; }
+@font-face { font-family: 'Neosfera Dither Condensed'; src: url('neosfera-dither-condensed/woff2/NeosferaDitherCondensed-Bold.woff2') format('woff2'); font-weight: 700; }
+
+/* 6. Neosfera Glitch & Glitch Condensed */
+@font-face { font-family: 'Neosfera Glitch'; src: url('neosfera-glitch/woff2/NeosferaGlitch-Regular.woff2') format('woff2'); font-weight: 400; }
+@font-face { font-family: 'Neosfera Glitch'; src: url('neosfera-glitch/woff2/NeosferaGlitch-Bold.woff2') format('woff2'); font-weight: 700; }
+@font-face { font-family: 'Neosfera Glitch Condensed'; src: url('neosfera-glitch/woff2/NeosferaGlitchCondensed-Regular.woff2') format('woff2'); font-weight: 400; }
+@font-face { font-family: 'Neosfera Glitch Condensed'; src: url('neosfera-glitch/woff2/NeosferaGlitchCondensed-Bold.woff2') format('woff2'); font-weight: 700; }
+
+body {
+  margin: 0;
+  padding: 48px 64px;
+  background: #F4F3EF;
+  color: #1E1E1C;
+  font-family: 'Neosfera Sans', sans-serif;
+}
+header {
+  border-bottom: 2px solid #1E1E1C;
+  padding-bottom: 24px;
+  margin-bottom: 48px;
+}
+.tag {
+  font-family: monospace;
+  font-size: 13px;
+  color: #2A8564;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+h1 {
+  font-family: 'Neosfera Display', sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+  margin: 8px 0;
+  line-height: 0.95;
+}
+section {
+  margin-bottom: 64px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #D8D6CE;
+}
+.row {
+  margin: 14px 0;
+}
+.sample-lg {
+  font-size: 56px;
+  line-height: 1.08;
+}
+.sample-xl {
+  font-size: 82px;
+  line-height: 0.98;
+}
+.charset {
+  font-size: 26px;
+  line-height: 1.45;
+  color: #444;
+  margin-top: 16px;
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="tag">NEOSFERA TYPE SYSTEM · GOOGLE FONTS READY · v1.000 · OFL 1.1</div>
+  <h1>THE FUTURE OF INNOVATION</h1>
+</header>
+
+<section style="font-family: 'Neosfera Serif'">
+  <div class="tag">01 · Neosfera Serif · 6 Estilos (300, 300i, 400, 400i, 700, 700i) · 363 Glifos</div>
+  <div class="row sample-lg" style="font-weight:300">Inovação já, com propósito — Light</div>
+  <div class="row sample-lg" style="font-weight:300;font-style:italic">Inovação já, com propósito — Light Italic</div>
+  <div class="row sample-lg" style="font-weight:400">Inovação já, com propósito — Regular</div>
+  <div class="row sample-lg" style="font-weight:400;font-style:italic">Inovação já, com propósito — Italic</div>
+  <div class="row sample-lg" style="font-weight:700">Inovação já, com propósito — Bold</div>
+  <div class="row sample-lg" style="font-weight:700;font-style:italic">Inovação já, com propósito — Bold Italic</div>
+  <div class="charset">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789<br>ÁÀÂÃÄÅÆÇÉÈÊËÍÌÎÏÐÑÓÒÔÕÖØŒŠÞÚÙÛÜÝŸŽßẞ áàâãäåæçéèêëíìîïðñóòôõöøœšþúùûüýÿž ﬁ ﬂ @&amp;%$€£¥¢§©®™±×÷«»“”‘’—</div>
+</section>
+
+<section style="font-family: 'Neosfera Sans'">
+  <div class="tag">02 · Neosfera Sans · 6 Estilos (300, 300i, 400, 400i, 700, 700i) · 363 Glifos</div>
+  <div class="row sample-lg" style="font-weight:300">Arquitetura digital contemporânea — Light</div>
+  <div class="row sample-lg" style="font-weight:300;font-style:italic">Arquitetura digital contemporânea — Light Italic</div>
+  <div class="row sample-lg" style="font-weight:400">Arquitetura digital contemporânea — Regular</div>
+  <div class="row sample-lg" style="font-weight:400;font-style:italic">Arquitetura digital contemporânea — Italic</div>
+  <div class="row sample-lg" style="font-weight:700">Arquitetura digital contemporânea — Bold</div>
+  <div class="row sample-lg" style="font-weight:700;font-style:italic">Arquitetura digital contemporânea — Bold Italic</div>
+</section>
+
+<section style="font-family: 'Neosfera Display'">
+  <div class="tag">03 · Neosfera Display · 3 Estilos (400, 700, 900) · 363 Glifos</div>
+  <div class="row sample-xl" style="font-weight:400">INNOVATION AS A SERVICE · 2026</div>
+  <div class="row sample-xl" style="font-weight:700">INNOVATION AS A SERVICE · 2026</div>
+  <div class="row sample-xl" style="font-weight:900">INNOVATION AS A SERVICE · 2026</div>
+</section>
+
+<section style="font-family: 'Neosfera Dither'">
+  <div class="tag">04 · Neosfera Dither · 2 Estilos (Regular 6px, Bold 12px) · 408 Glifos</div>
+  <div class="row sample-xl" style="font-weight:400">NEOSFERA DITHER 400</div>
+  <div class="row sample-xl" style="font-weight:700">NEOSFERA DITHER 700</div>
+</section>
+
+<section style="font-family: 'Neosfera Dither Condensed'">
+  <div class="tag">05 · Neosfera Dither Condensed · 2 Estilos (Regular 6px, Bold 12px) · 408 Glifos</div>
+  <div class="row sample-xl" style="font-weight:400">HIGH DENSITY BAYER MATRIX · REGULAR</div>
+  <div class="row sample-xl" style="font-weight:700">HIGH DENSITY BAYER MATRIX · BOLD</div>
+</section>
+
+<section>
+  <div class="tag">06 &amp; 07 · Neosfera Glitch &amp; Neosfera Glitch Condensed · OpenType ss01–ss04 · 2032 Glifos</div>
+  <div class="row sample-xl" style="font-family:'Neosfera Glitch';font-weight:700">Neosfera AVATAR <span style="font-feature-settings:'ss02'">GLITCH</span></div>
+  <div class="row sample-xl" style="font-family:'Neosfera Glitch Condensed';font-weight:700">MOST INTERFACES <span style="font-feature-settings:'ss01'">NEED WAY</span></div>
+</section>
+</body>
+</html>
+

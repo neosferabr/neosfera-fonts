@@ -1,0 +1,11 @@
+Neosfera Dither · v1.000 · Neosfera
+
+Para instalar no computador: pasta ttf:
+  NeosferaDither-Regular.ttf (trama Bayer 8x8 fina · célula 6px)
+  NeosferaDither-Bold.ttf    (trama Bayer 8x8 densa · célula 12px)
+
+Para sites: pasta woff2 (@font-face com font-weight 400 e 700).
+Pacote Google Fonts: ../google-fonts/ofl/neosferadither/
+
+408 glifos com 100% de cobertura GF_Latin_Core + Latin Extended.
+
