@@ -24,7 +24,13 @@ DISPLAY_STYLES = {
     'Bold':    dict(p=dict(W=112, thick=52, slen=0, rv=17, rc=9,  diag=104, bar=105, G=56), sxb=0.73, sxc=0.67, wclass=700),
     'Black':   dict(p=dict(W=134, thick=60, slen=0, rv=19, rc=10, diag=124, bar=124, G=60), sxb=0.76, sxc=0.70, wclass=900),
 }
+CONDENSED_SANS_STYLES = {
+    'Regular': dict(p=dict(W=92,  thick=44, slen=0, rv=15, rc=8,  diag=78,  bar=84,  G=74), sxb=0.70, sxc=0.64, wclass=400),
+    'Bold':    dict(p=dict(W=112, thick=52, slen=0, rv=17, rc=9,  diag=96,  bar=102, G=78), sxb=0.73, sxc=0.67, wclass=700),
+    'Black':   dict(p=dict(W=134, thick=60, slen=0, rv=19, rc=10, diag=116, bar=122, G=82), sxb=0.76, sxc=0.70, wclass=900),
+}
 DISPLAY_BONUS = dict(v=.08, w=.10, x=.08, y=.08, z=.06, V=.08, W=.11, X=.08, Y=.07, Z=.06, A=.06, K=.05, M=.07, k=.04)
+CONDENSED_SANS_BONUS = dict(v=.08, w=.10, x=.08, y=.08, z=.06, V=.07, W=.09, X=.07, Y=.06, Z=.05, A=.05, K=.05, M=.04, k=.04)
 
 STD_WEIGHTS = {
     'Light':   dict(W=60,  thick=30, slen=50, rv=10, rc=6,  diag=52,  bar=56,  G=54),
@@ -50,6 +56,7 @@ def notdef():
 def configure_engine(family_kind, weight):
     if family_kind == 'serif':
         g.SERIFS = True
+        g.DISPLAY_MODE = False
         g.SX_BASE, g.CAPS_SX = 0.90, 0.84
         g.SX = g.SX_BASE
         g.SX_BONUS = {}
@@ -57,6 +64,7 @@ def configure_engine(family_kind, weight):
         return 'Neosfera Serif', 5, {'Light': 300, 'Regular': 400, 'Bold': 700}[weight], True
     elif family_kind == 'sans':
         g.SERIFS = False
+        g.DISPLAY_MODE = False
         g.SX_BASE, g.CAPS_SX = 0.90, 0.84
         g.SX = g.SX_BASE
         g.SX_BONUS = {}
@@ -65,11 +73,21 @@ def configure_engine(family_kind, weight):
     elif family_kind == 'display':
         S = DISPLAY_STYLES[weight]
         g.SERIFS = False
+        g.DISPLAY_MODE = True
         g.SX_BASE, g.CAPS_SX = S['sxb'], S['sxc']
         g.SX = g.SX_BASE
         g.SX_BONUS = dict(DISPLAY_BONUS)
         g.WEIGHTS[weight] = dict(S['p'])
         return 'Neosfera Display', 3, S['wclass'], False
+    elif family_kind == 'condensed_sans':
+        S = CONDENSED_SANS_STYLES[weight]
+        g.SERIFS = False
+        g.DISPLAY_MODE = False
+        g.SX_BASE, g.CAPS_SX = S['sxb'], S['sxc']
+        g.SX = g.SX_BASE
+        g.SX_BONUS = dict(CONDENSED_SANS_BONUS)
+        g.WEIGHTS[weight] = dict(S['p'])
+        return 'Neosfera Condensed Sans', 3, S['wclass'], False
     else:
         raise ValueError(f'Unknown family_kind: {family_kind}')
 
@@ -195,7 +213,7 @@ def build_style_font(family_kind, weight, italic, ttf_out, woff2_out=None):
     gasp.gaspRange = {65535: 0x000F}
     fb.font['gasp'] = gasp
 
-    weights_list = [('Regular', 400), ('Bold', 700), ('Black', 900)] if family_kind == 'display' else [('Light', 300), ('Regular', 400), ('Bold', 700)]
+    weights_list = [('Regular', 400), ('Bold', 700), ('Black', 900)] if family_kind in ('display', 'condensed_sans') else [('Light', 300), ('Regular', 400), ('Bold', 700)]
     build_stat(fb.font, has_italic, weights_list)
     fb.font['name'].names = [r for r in fb.font['name'].names if r.platformID == 3]
 

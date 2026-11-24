@@ -12,6 +12,7 @@ SX = 0.90
 SX_BASE, CAPS_SX = 0.90, 0.84
 SX_BONUS = {}
 SERIFS = True
+DISPLAY_MODE = False
 ITALIC_ANGLE = 10.0
 ITALIC_SINGLE_A = False
 
@@ -85,10 +86,13 @@ def round_corners(p, rv, rc):
 
 def clip(path, lo, hi, w=None):
     if w is None:
-        bx0, by0, bx1, by1 = path.bounds
-        L = math.hypot(bx1 - bx0, by1 - by0)
-        cos_t = max(0.55, (by1 - by0) / L) if L > 0 else 1.0
-        w = W * (cos_t ** 0.85)
+        if not DISPLAY_MODE:
+            w = DIAG
+        else:
+            bx0, by0, bx1, by1 = path.bounds
+            L = math.hypot(bx1 - bx0, by1 - by0)
+            cos_t = max(0.55, (by1 - by0) / L) if L > 0 else 1.0
+            w = W * (cos_t ** 0.85)
     return op(stroke(path, w), rect(-900, lo, 1900, hi), PathOp.INTERSECTION)
 
 def dline(x0, y0, x1, y1, lo, hi, scale=1.0, up_boost=0.0):
@@ -177,6 +181,10 @@ def _leg_from_arm(a0, a1, l0, l1, lo, hi, w):
     return op(leg, rect(-900, lo, 1900, hi), PathOp.INTERSECTION)
 
 def g_k():
+    if not DISPLAY_MODE:
+        arm = op(stroke(skel([('M', 400, 600), ('L', -14, 146)]), DIAG * 1.08), rect(-500, 0, 900, XH), PathOp.INTERSECTION)
+        leg = _leg_from_arm((44, 210), (400, 600), (150, 318), (420, -56), 0, XH, DIAG * 1.08)
+        return G(sk=[_stem(0, 0, ASC)], solid=[arm, leg], top=[(0, ASC)], foot=[(0, 0)])
     arm = dline(400, 600, -14, 146, 0, XH, 1.0, 0.03)
     leg = _leg_from_arm((44, 210), (400, 600), (150, 318), (420, -56), 0, XH, W * 0.96)
     return G(sk=[_stem(0, 0, ASC)], solid=[arm, leg], top=[(0, ASC)], foot=[(0, 0)])
@@ -203,23 +211,39 @@ def g_u():
     return G(sk=[skel([('M', 0, XH), ('L', 0, 190), ('C', 0, 80, 80, b, 195, b), ('C', 300, b, 372, 68, 400, 160)]), _stem(400, 0, XH)],
              top=[(0, XH), (400, XH)], foot=[(400, 0)])
 def g_v():
+    if not DISPLAY_MODE:
+        return G(solid=[clip(skel([('M', -22, 640), ('L', 230, -70)]), 0, XH), clip(skel([('M', 482, 640), ('L', 230, -70)]), 0, XH)])
     return G(solid=[dline(-22, 640, 224, -40, 0, XH, 1.0, 0.04),
                     dline(482, 640, 236, -40, 0, XH, 1.0, 0.04)])
 def g_w():
+    if not DISPLAY_MODE:
+        pts = [(0, 640), (150, -70), (310, 640), (470, -70), (620, 640)]
+        return G(solid=[clip(skel([('M', *pts[i]), ('L', *pts[i + 1])]), 0, XH) for i in range(4)])
     pts = [(0, 620), (152, -30), (310, 595), (468, -30), (620, 620)]
     return G(solid=[dline(*pts[i], *pts[i + 1], 0, XH, 0.94, 0.03) for i in range(4)])
 def g_x():
+    if not DISPLAY_MODE:
+        return G(solid=[clip(skel([('M', -43, 600), ('L', 491, -80)]), 0, XH), clip(skel([('M', 491, 600), ('L', -43, -80)]), 0, XH)])
     return G(solid=[dline(-43, 600, 491, -80, 0, XH, 0.96, 0.03),
                     dline(491, 600, -43, -80, 0, XH, 0.96, 0.03)])
 def g_y():
+    if not DISPLAY_MODE:
+        tail = op(stroke(skel([('M', 482, 640), ('L', 214, -76), ('C', 196, -126, 176, DSC + HW, 130, DSC + HW), ('L', 20, DSC + HW)]), DIAG), rect(-900, DSC - 10, 1900, XH), PathOp.INTERSECTION)
+        return G(solid=[clip(skel([('M', -22, 640), ('L', 236, -50)]), 0, XH), tail])
     tail = op(stroke(skel([('M', 482, 640), ('L', 214, -76), ('C', 196, -126, 176, DSC + HW, 130, DSC + HW), ('L', 20, DSC + HW)]), W * 0.95), rect(-900, DSC - 10, 1900, XH), PathOp.INTERSECTION)
     return G(solid=[dline(-22, 640, 236, -50, 0, XH, 0.96, 0.02), tail])
 def g_z():
+    if not DISPLAY_MODE:
+        diag = op(stroke(skel([('M', 444, XH + 40), ('L', 16, -40)]), DIAG), rect(-800, 20, 1600, XH - 20), PathOp.INTERSECTION)
+        return G(solid=[hbar(24, 432, XH - BAR / 2), hbar(20, 440, BAR / 2), diag])
     diag = dline(444, XH + 40, 16, -40, 20, XH - 20, 0.96, 0.02)
     return G(solid=[hbar(24, 432, XH - BAR / 2), hbar(20, 440, BAR / 2), diag])
 
 # ================================================================= maiúsculas
 def g_A():
+    if not DISPLAY_MODE:
+        return G(solid=[clip(skel([('M', 330, 760), ('L', 20, -40)]), 0, CAP), clip(skel([('M', 330, 760), ('L', 640, -40)]), 0, CAP),
+                        hbar(140, 520, 230)])
     return G(solid=[dline(318, 725, 0, -40, 0, CAP, 1.0, 0.02),
                     dline(342, 725, 660, -40, 0, CAP, 1.0, 0.02),
                     hbar(130, 530, 195, BAR * 0.94)])
@@ -246,11 +270,19 @@ def g_I(): return G(sk=[_stem(0, 0, CAP)], full_top=[(0, CAP)], full_foot=[(0, 0
 def g_J():
     return G(sk=[skel([('M', 300, CAP), ('L', 300, 150), ('C', 300, 86, 272, HW, 200, HW), ('L', 24, HW)])], top=[(300, CAP)])
 def g_K():
+    if not DISPLAY_MODE:
+        arm = clip(skel([('M', 520, 780), ('L', -10, 182)]), 0, CAP, DIAG * 1.08)
+        leg = _leg_from_arm((50, 250), (520, 780), (190, 410), (560, -60), 0, CAP, DIAG * 1.08)
+        return G(sk=[_stem(0, 0, CAP)], solid=[arm, leg], top=[(0, CAP)], foot=[(0, 0)])
     arm = dline(520, 780, -10, 182, 0, CAP, 0.98, 0.03)
     leg = _leg_from_arm((50, 250), (520, 780), (190, 410), (560, -60), 0, CAP, W * 0.94)
     return G(sk=[_stem(0, 0, CAP)], solid=[arm, leg], top=[(0, CAP)], foot=[(0, 0)])
 def g_L(): return G(sk=[_stem(0, 0, CAP)], solid=[hbar(-HW / SX + 4, 430, FB())], top=[(0, CAP)])
 def g_M():
+    if not DISPLAY_MODE:
+        return G(sk=[_stem(0, 0, CAP), _stem(640, 0, CAP)],
+                 solid=[clip(skel([('M', -10, 760), ('L', 320, 60)]), 60, CAP), clip(skel([('M', 650, 760), ('L', 320, 60)]), 60, CAP),
+                        clip(skel([('M', 320, 160), ('L', 320, 40)]), 60, 200)], foot=[(0, 0), (640, 0)])
     return G(solid=[
         stroke(_stem(0, 0, CAP), W * 0.97),
         stroke(_stem(680, 0, CAP), W * 0.97),
@@ -258,6 +290,9 @@ def g_M():
         dline(652, 720, 340, 60, 60, CAP, 0.93, 0.03),
     ], foot=[(0, 0), (680, 0)])
 def g_N():
+    if not DISPLAY_MODE:
+        return G(sk=[_stem(0, 0, CAP), _stem(520, 0, CAP)], solid=[clip(skel([('M', -10, 760), ('L', 530, -60)]), 0, CAP, DIAG * 1.12)],
+                 foot=[(0, 0)], top=[(520, CAP)])
     return G(sk=[_stem(0, 0, CAP), _stem(520, 0, CAP)],
              solid=[dline(-10, 760, 530, -60, 0, CAP, 0.96, 0.0)],
              foot=[(0, 0)], top=[(520, CAP)])
@@ -269,7 +304,9 @@ def g_P():
 def g_Q():
     g = g_O(); g['solid'].append(clip(skel([('M', 360, 210), ('L', 640, -110)]), -100, 300)); return g
 def g_R():
-    g = g_P(); g['solid'].append(dline(210, 340, 500, -60, 0, 330, 0.98, 0.0)); return g
+    g = g_P()
+    g['solid'].append(dline(210, 340, 500, -60, 0, 330, 0.98, 0.0) if DISPLAY_MODE else clip(skel([('M', 210, 360), ('L', 500, -60)]), 0, 340, DIAG * 1.1))
+    return g
 def g_S():
     t, b = TC(), B_()
     return G(sk=[skel([('M', 500, 540), ('C', 480, 640, 400, t, 270, t), ('C', 140, t, 50, 630, 50, 530),
@@ -281,20 +318,33 @@ def g_U():
     return G(sk=[skel([('M', 0, CAP), ('L', 0, 250), ('C', 0, 110, 100, b, 255, b), ('C', 410, b, 510, 110, 510, 250), ('L', 510, CAP)])],
              top=[(0, CAP), (510, CAP)])
 def g_V():
+    if not DISPLAY_MODE:
+        return G(solid=[clip(skel([('M', 0, 780), ('L', 300, -60)]), 0, CAP), clip(skel([('M', 600, 780), ('L', 300, -60)]), 0, CAP)])
     return G(solid=[dline(0, 740, 298, -15, 0, CAP, 1.0, 0.04),
                     dline(620, 740, 322, -15, 0, CAP, 1.0, 0.04)])
 def g_W():
+    if not DISPLAY_MODE:
+        pts = [(0, 780), (190, -60), (390, 780), (590, -60), (780, 780)]
+        return G(solid=[clip(skel([('M', *pts[i]), ('L', *pts[i + 1])]), 0, CAP) for i in range(4)])
     pts = [(0, 720), (195, -15), (410, 690), (625, -15), (820, 720)]
     return G(solid=[dline(*pts[i], *pts[i + 1], 0, CAP, 0.94, 0.03) for i in range(4)])
 def g_X():
+    if not DISPLAY_MODE:
+        return G(solid=[clip(skel([('M', 0, 760), ('L', 560, -60)]), 0, CAP), clip(skel([('M', 560, 760), ('L', 0, -60)]), 0, CAP)])
     return G(solid=[dline(0, 760, 560, -60, 0, CAP, 0.98, 0.03),
                     dline(560, 760, 0, -60, 0, CAP, 0.98, 0.03)])
 def g_Y():
+    if not DISPLAY_MODE:
+        return G(sk=[_stem(290, 0, 330)], solid=[clip(skel([('M', -10, 780), ('L', 300, 300)]), 300, CAP), clip(skel([('M', 590, 780), ('L', 280, 300)]), 300, CAP)],
+                 foot=[(290, 0)])
     return G(sk=[_stem(290, 0, 330)],
              solid=[dline(-10, 780, 300, 300, 300, CAP, 1.0, 0.03),
                     dline(590, 780, 280, 300, 300, CAP, 1.0, 0.03)],
              foot=[(290, 0)])
 def g_Z():
+    if not DISPLAY_MODE:
+        diag = op(stroke(skel([('M', 520, CAP + 40), ('L', 20, -40)]), DIAG * 1.05), rect(-800, 30, 1600, CAP - 30), PathOp.INTERSECTION)
+        return G(solid=[hbar(26, 510, FT()), hbar(20, 530, FB()), diag])
     diag = dline(520, CAP + 40, 20, -40, 30, CAP - 30, 0.98, 0.02)
     return G(solid=[hbar(26, 510, FT()), hbar(20, 530, FB()), diag])
 
@@ -426,6 +476,9 @@ def g_one():
     return G(sk=[_stem(290, 0, CAP)], solid=[clip(skel([('M', 330, CAP + 20), ('L', 90, 520)]), 480, CAP)], full_foot=[(290, 0)])
 def g_two():
     t = TC()
+    if not DISPLAY_MODE:
+        return G(sk=[skel([('M', 30, 520), ('C', 52, 630, 140, t, 250, t), ('C', 372, t, 450, 620, 450, 515), ('C', 450, 400, 360, 330, 230, 230), ('L', 40, FB() + 20)])],
+                 solid=[hbar(30 if SERIFS else -8, 470, FB())])
     top2 = stroke(skel([('M', 32, 510), ('C', 52, 630, 140, t, 250, t), ('C', 372, t, 450, 624, 450, 520), ('C', 450, 450, 418, 398, 355, 340)]), W * 0.96)
     diag2 = dline(395, 390, 42, FB(), FB(), 440, 0.97, 0.0)
     return G(solid=[top2, diag2, hbar(30 if SERIFS else -4, 470, FB())])
@@ -442,13 +495,19 @@ def g_five():
              sk=[skel([('M', 72, 384), ('C', 120, 420, 190, 440, 262, 440), ('C', 392, 440, 470, 360, 470, 228), ('C', 470, 96, 380, b, 250, b), ('C', 136, b, 56, 66, 30, 150)])])
 def g_six():
     t = TC()
+    if not DISPLAY_MODE:
+        return G(sk=[ring(255, 228, 215, 228 - HW + OV), skel([('M', 40, 236), ('C', 40, 520, 150, t, 280, t), ('C', 372, t, 432, 650, 452, 582)])])
     return G(sk=[ring(255, 228, 220, 228 - HW + OV), skel([('M', 35, 236), ('C', 35, 520, 150, t, 280, t), ('C', 372, t, 432, 650, 452, 582)])], ws=0.95)
 def g_seven():
+    if not DISPLAY_MODE:
+        return G(solid=[hbar(20, 470, FT()), clip(skel([('M', 480, FT() + 20), ('L', 160, -60)]), 0, FT())])
     return G(solid=[hbar(20, 470, FT()), dline(480, FT() + 20, 160, -60, 0, FT(), 0.98, 0.02)])
 def g_eight():
-    return G(sk=[ring(250, 530, 182, 170 - HW + OV), ring(250, 200, 214, 200 - HW + OV)], ws=0.95)
+    return G(sk=[ring(250, 530, 182, 170 - HW + OV), ring(250, 200, 214, 200 - HW + OV)], ws=0.95 if DISPLAY_MODE else 1.0)
 def g_nine():
     b = B_()
+    if not DISPLAY_MODE:
+        return G(sk=[ring(245, 472, 215, 228 - HW + OV), skel([('M', 460, 464), ('C', 460, 180, 350, b, 220, b), ('C', 128, b, 68, 50, 48, 118)])])
     return G(sk=[ring(245, 472, 220, 228 - HW + OV), skel([('M', 465, 464), ('C', 465, 180, 350, b, 220, b), ('C', 128, b, 68, 50, 48, 118)])], ws=0.95)
 
 # ================================================================= pontuação e símbolos ASCII/Latin-1

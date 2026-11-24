@@ -160,6 +160,12 @@ Neosfera Display is a condensed sans-serif headline typeface built from the Neos
 <p>
 Available in Regular (400), Bold (700), and Black (900), Neosfera Display pairs seamlessly with Neosfera Serif and Neosfera Sans. To contribute, visit <a href="https://github.com/neosferabr/neosfera-fonts">github.com/neosferabr/neosfera-fonts</a>.
 </p>""",
+    'neosferacondensedsans': """<p>
+Neosfera Condensed Sans is a narrow grotesque display typeface built from the Neosfera parametric engine. Sharing the same foundational DNA as Neosfera Serif and Neosfera Sans, it compresses horizontal proportions while keeping generous open tracking and crisp geometric terminals for editorial headlines, UI badges, and posters.
+</p>
+<p>
+Available in Regular (400), Bold (700), and Black (900), Neosfera Condensed Sans expands the Neosfera superfamily. To contribute, visit <a href="https://github.com/neosferabr/neosfera-fonts">github.com/neosferabr/neosfera-fonts</a>.
+</p>""",
     'neosferadither': """<p>
 Neosfera Dither is an experimental display typeface that intersects bold grotesque letterforms with an ordered 8x8 Bayer halftone dither matrix. Regular uses a fine 6px halftone grid with directional tonal gradients, while Bold uses a coarser 12px cellular matrix for striking brutalist and retro-digital textures.
 </p>
@@ -271,8 +277,26 @@ def main():
     write_ofl(os.path.join(disp_dir, 'OFL.txt'), build_ttf.COPY)
     setup_ofl_package('neosferadisplay', 'Neosfera Display', 'DISPLAY', os.path.join(disp_dir, 'ttf'), disp_ttfs, build_ttf.COPY)
 
-    # Sync motor/ into neosfera-serif, neosfera-sans, neosfera-display
-    for fam_d in (serif_dir, sans_dir, disp_dir):
+    # 1D. Neosfera Condensed Sans
+    csans_dir = os.path.join(ROOT, 'neosfera-condensed-sans')
+    clean_dir_exts(os.path.join(csans_dir, 'ttf'))
+    clean_dir_exts(os.path.join(csans_dir, 'woff2'))
+    csans_ttfs = []
+    for w in ('Regular', 'Bold', 'Black'):
+        fn = f'NeosferaCondensedSans-{w}.ttf'
+        wfn = f'NeosferaCondensedSans-{w}.woff2'
+        ng, nb, nt = build_ttf.build_style_font(
+            'condensed_sans', w, False,
+            os.path.join(csans_dir, 'ttf', fn),
+            os.path.join(csans_dir, 'woff2', wfn)
+        )
+        csans_ttfs.append(fn)
+        print(f'  [Neosfera Condensed Sans] {fn:30} | glifos={ng} | kern={nb} ({nt} expandidos)')
+    write_ofl(os.path.join(csans_dir, 'OFL.txt'), build_ttf.COPY)
+    setup_ofl_package('neosferacondensedsans', 'Neosfera Condensed Sans', 'SANS_SERIF', os.path.join(csans_dir, 'ttf'), csans_ttfs, build_ttf.COPY)
+
+    # Sync motor/ into neosfera-serif, neosfera-sans, neosfera-display, neosfera-condensed-sans
+    for fam_d in (serif_dir, sans_dir, disp_dir, csans_dir):
         m_dst = os.path.join(fam_d, 'motor')
         os.makedirs(m_dst, exist_ok=True)
         for mf in ('grotesk.py', 'family.py', 'build_ttf.py'):
