@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="900" default="400"/>
+  </axes>
+  <sources>
+    <source filename="NeosferaDisplay-Black.ufo" familyname="Neosfera Display" stylename="Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+      </location>
+    </source>
+    <source filename="NeosferaDisplay-Bold.ufo" familyname="Neosfera Display" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+      </location>
+    </source>
+    <source filename="NeosferaDisplay-Regular.ufo" familyname="Neosfera Display" stylename="Regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance familyname="Neosfera Display" stylename="Black" filename="instance_ttf/NeosferaDisplay-Black.ttf">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+      </location>
+    </instance>
+    <instance familyname="Neosfera Display" stylename="Bold" filename="instance_ttf/NeosferaDisplay-Bold.ttf">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+      </location>
+    </instance>
+    <instance familyname="Neosfera Display" stylename="Regular" filename="instance_ttf/NeosferaDisplay-Regular.ttf">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </instance>
+  </instances>
+</designspace>

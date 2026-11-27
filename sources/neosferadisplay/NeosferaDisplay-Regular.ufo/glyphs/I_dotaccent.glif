@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Idotaccent" format="2">
+  <advance width="196"/>
+  <unicode hex="0130"/>
+  <outline>
+    <contour>
+      <point x="144" y="15" type="line" smooth="yes"/>
+      <point x="144.0" y="9.0"/>
+      <point x="135.0" y="0.0"/>
+      <point x="129.0" y="0.0" type="qcurve" smooth="yes"/>
+      <point x="67" y="0" type="line" smooth="yes"/>
+      <point x="61.0" y="0.0"/>
+      <point x="52.0" y="9.0"/>
+      <point x="52.0" y="15.0" type="qcurve" smooth="yes"/>
+      <point x="52" y="685" type="line" smooth="yes"/>
+      <point x="52.0" y="691.0"/>
+      <point x="61.0" y="700.0"/>
+      <point x="67.0" y="700.0" type="qcurve" smooth="yes"/>
+      <point x="129" y="700" type="line" smooth="yes"/>
+      <point x="135.0" y="700.0"/>
+      <point x="144.0" y="691.0"/>
+      <point x="144.0" y="685.0" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="67" y="773" type="line" smooth="yes"/>
+      <point x="61.0" y="773.0"/>
+      <point x="52.0" y="782.0"/>
+      <point x="52.0" y="788.0" type="qcurve" smooth="yes"/>
+      <point x="52" y="850" type="line" smooth="yes"/>
+      <point x="52.0" y="856.0"/>
+      <point x="61.0" y="865.0"/>
+      <point x="67.0" y="865.0" type="qcurve" smooth="yes"/>
+      <point x="129" y="865" type="line" smooth="yes"/>
+      <point x="135.0" y="865.0"/>
+      <point x="144.0" y="856.0"/>
+      <point x="144.0" y="850.0" type="qcurve" smooth="yes"/>
+      <point x="144" y="788" type="line" smooth="yes"/>
+      <point x="144.0" y="782.0"/>
+      <point x="135.0" y="773.0"/>
+      <point x="129.0" y="773.0" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringcomb" format="2">
+  <unicode hex="030A"/>
+  <outline>
+    <contour>
+      <point x="-64.0" y="667.0" type="qcurve" smooth="yes"/>
+      <point x="-64.0" y="634.0"/>
+      <point x="-107.0" y="591.0"/>
+      <point x="-173.0" y="591.0"/>
+      <point x="-216.0" y="634.0"/>
+      <point x="-216.0" y="700.0"/>
+      <point x="-194.0" y="721.0" type="qcurve" smooth="yes"/>
+      <point x="-173.0" y="743.0"/>
+      <point x="-107.0" y="743.0"/>
+      <point x="-64.0" y="700.0"/>
+    </contour>
+    <contour>
+      <point x="-105" y="650"/>
+      <point x="-105" y="684"/>
+      <point x="-123" y="702"/>
+      <point x="-157" y="702"/>
+      <point x="-175" y="684"/>
+      <point x="-175" y="650"/>
+      <point x="-157" y="632"/>
+      <point x="-123" y="632"/>
+    </contour>
+  </outline>
+</glyph>

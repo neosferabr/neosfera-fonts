@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guilsinglright" format="2">
+  <advance width="299"/>
+  <unicode hex="203A"/>
+  <outline>
+    <contour>
+      <point x="37" y="383" type="line"/>
+      <point x="35.0" y="386.0"/>
+      <point x="33.0" y="393.0"/>
+      <point x="34.0" y="401.0"/>
+      <point x="37.0" y="407.0"/>
+      <point x="40.0" y="410.0" type="qcurve"/>
+      <point x="92" y="450" type="line"/>
+      <point x="99.99999999999996" y="457.99999999999994"/>
+      <point x="113.66666666666667" y="454.99999999999994"/>
+      <point x="119.0" y="447.0" type="curve"/>
+      <point x="256" y="272" type="line" smooth="yes"/>
+      <point x="260.0" y="267.0"/>
+      <point x="260.0" y="253.0"/>
+      <point x="256.0" y="248.0" type="qcurve" smooth="yes"/>
+      <point x="119" y="73" type="line"/>
+      <point x="113.66666666666657" y="64.99999999999991"/>
+      <point x="99.99999999999994" y="62.000000000000064"/>
+      <point x="92.0" y="70.0" type="curve"/>
+      <point x="40" y="110" type="line"/>
+      <point x="37.0" y="113.0"/>
+      <point x="34.0" y="119.0"/>
+      <point x="33.0" y="127.0"/>
+      <point x="35.0" y="134.0"/>
+      <point x="37.0" y="137.0" type="qcurve"/>
+      <point x="128" y="254" type="line"/>
+      <point x="131.0" y="257.0"/>
+      <point x="131.0" y="263.0"/>
+      <point x="128.0" y="266.0" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

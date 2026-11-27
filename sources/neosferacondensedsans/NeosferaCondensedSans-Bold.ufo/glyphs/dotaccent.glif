@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotaccent" format="2">
+  <advance width="248"/>
+  <unicode hex="02D9"/>
+  <outline>
+    <contour>
+      <point x="70" y="875" type="line" smooth="yes"/>
+      <point x="70.0" y="878.0"/>
+      <point x="73.0" y="885.0"/>
+      <point x="77.0" y="889.0"/>
+      <point x="84.0" y="892.0"/>
+      <point x="87.0" y="892.0" type="qcurve" smooth="yes"/>
+      <point x="161" y="892" type="line" smooth="yes"/>
+      <point x="164.0" y="892.0"/>
+      <point x="171.0" y="889.0"/>
+      <point x="175.0" y="885.0"/>
+      <point x="178.0" y="878.0"/>
+      <point x="178.0" y="875.0" type="qcurve" smooth="yes"/>
+      <point x="178" y="801" type="line" smooth="yes"/>
+      <point x="178.0" y="798.0"/>
+      <point x="175.0" y="791.0"/>
+      <point x="171.0" y="787.0"/>
+      <point x="164.0" y="784.0"/>
+      <point x="161.0" y="784.0" type="qcurve" smooth="yes"/>
+      <point x="87" y="784" type="line" smooth="yes"/>
+      <point x="84.0" y="784.0"/>
+      <point x="77.0" y="787.0"/>
+      <point x="73.0" y="791.0"/>
+      <point x="70.0" y="798.0"/>
+      <point x="70.0" y="801.0" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

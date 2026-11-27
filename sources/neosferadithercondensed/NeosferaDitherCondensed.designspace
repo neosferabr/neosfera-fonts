@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="700" default="400"/>
+  </axes>
+  <sources>
+    <source filename="NeosferaDitherCondensed-Bold.ufo" familyname="Neosfera Dither Condensed" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+      </location>
+    </source>
+    <source filename="NeosferaDitherCondensed-Regular.ufo" familyname="Neosfera Dither Condensed" stylename="Regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance familyname="Neosfera Dither Condensed" stylename="Bold" filename="instance_ttf/NeosferaDitherCondensed-Bold.ttf">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+      </location>
+    </instance>
+    <instance familyname="Neosfera Dither Condensed" stylename="Regular" filename="instance_ttf/NeosferaDitherCondensed-Regular.ttf">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </instance>
+  </instances>
+</designspace>

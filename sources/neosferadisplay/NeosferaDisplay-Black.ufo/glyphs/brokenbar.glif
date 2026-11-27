@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brokenbar" format="2">
+  <advance width="266"/>
+  <unicode hex="00A6"/>
+  <outline>
+    <contour>
+      <point x="200" y="369" type="line" smooth="yes"/>
+      <point x="199.9999999999999" y="358.3333333333328"/>
+      <point x="191.6666666666663" y="350.0"/>
+      <point x="181.0" y="350.0" type="curve" smooth="yes"/>
+      <point x="85" y="350" type="line" smooth="yes"/>
+      <point x="74.3333333333334" y="350.0"/>
+      <point x="66.0" y="358.33333333333303"/>
+      <point x="66.0" y="369.0" type="curve" smooth="yes"/>
+      <point x="66" y="761" type="line" smooth="yes"/>
+      <point x="66.0" y="771.666666666666"/>
+      <point x="74.33333333333296" y="780.0"/>
+      <point x="85.0" y="780.0" type="curve" smooth="yes"/>
+      <point x="181" y="780" type="line" smooth="yes"/>
+      <point x="191.6666666666667" y="780.0"/>
+      <point x="199.9999999999999" y="771.6666666666662"/>
+      <point x="200.0" y="761.0" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="200" y="-161" type="line" smooth="yes"/>
+      <point x="199.9999999999999" y="-171.66666666666669"/>
+      <point x="191.66666666666652" y="-180.0"/>
+      <point x="181.0" y="-180.0" type="curve" smooth="yes"/>
+      <point x="85" y="-180" type="line" smooth="yes"/>
+      <point x="74.33333333333317" y="-180.0"/>
+      <point x="66.0" y="-171.66666666666646"/>
+      <point x="66.0" y="-161.0" type="curve" smooth="yes"/>
+      <point x="66" y="211" type="line" smooth="yes"/>
+      <point x="66.0" y="221.6666666666662"/>
+      <point x="74.33333333333303" y="229.9999999999999"/>
+      <point x="85.0" y="230.0" type="curve" smooth="yes"/>
+      <point x="181" y="230" type="line" smooth="yes"/>
+      <point x="191.66666666666666" y="229.9999999999999"/>
+      <point x="199.9999999999999" y="221.66666666666643"/>
+      <point x="200.0" y="211.0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

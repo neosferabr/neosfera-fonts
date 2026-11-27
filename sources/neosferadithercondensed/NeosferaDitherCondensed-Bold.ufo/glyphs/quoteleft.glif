@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quoteleft" format="2">
+  <advance width="164"/>
+  <unicode hex="2018"/>
+  <outline>
+    <contour>
+      <point x="137" y="545" type="line"/>
+      <point x="134" y="515" type="line"/>
+      <point x="122" y="515" type="line"/>
+      <point x="122" y="485" type="line"/>
+      <point x="130" y="485" type="line"/>
+      <point x="129" y="476" type="line"/>
+      <point x="10" y="476" type="line"/>
+      <point x="26" y="545" type="line"/>
+      <point x="32" y="545" type="line"/>
+      <point x="32" y="572" type="line"/>
+      <point x="47" y="635" type="line"/>
+      <point x="62" y="635" type="line"/>
+      <point x="62" y="605" type="line"/>
+      <point x="92" y="605" type="line"/>
+      <point x="92" y="575" type="line"/>
+      <point x="62" y="575" type="line"/>
+      <point x="62" y="545" type="line"/>
+      <point x="92" y="545" type="line"/>
+      <point x="92" y="575" type="line"/>
+      <point x="122" y="575" type="line"/>
+      <point x="122" y="545" type="line"/>
+    </contour>
+    <contour>
+      <point x="62" y="635" type="line"/>
+      <point x="62" y="665" type="line"/>
+      <point x="92" y="665" type="line"/>
+      <point x="92" y="635" type="line"/>
+    </contour>
+    <contour>
+      <point x="62" y="515" type="line"/>
+      <point x="62" y="485" type="line"/>
+      <point x="92" y="485" type="line"/>
+      <point x="92" y="515" type="line"/>
+    </contour>
+    <contour>
+      <point x="68" y="725" type="line"/>
+      <point x="92" y="725" type="line"/>
+      <point x="92" y="695" type="line"/>
+      <point x="62" y="695" type="line"/>
+      <point x="62" y="699" type="line"/>
+    </contour>
+    <contour>
+      <point x="141" y="575" type="line"/>
+      <point x="122" y="575" type="line"/>
+      <point x="122" y="605" type="line"/>
+      <point x="145" y="605" type="line"/>
+    </contour>
+  </outline>
+</glyph>

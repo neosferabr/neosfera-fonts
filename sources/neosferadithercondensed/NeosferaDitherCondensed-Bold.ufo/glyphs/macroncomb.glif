@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macroncomb" format="2">
+  <unicode hex="0304"/>
+  <outline>
+    <contour>
+      <point x="-231" y="671" type="line"/>
+      <point x="-231" y="695" type="line"/>
+      <point x="-261" y="695" type="line"/>
+      <point x="-261" y="671" type="line"/>
+      <point x="-308" y="671" type="line"/>
+      <point x="-308" y="725" type="line"/>
+      <point x="-291" y="725" type="line"/>
+      <point x="-291" y="755" type="line"/>
+      <point x="-261" y="755" type="line"/>
+      <point x="-261" y="725" type="line"/>
+      <point x="-231" y="725" type="line"/>
+      <point x="-231" y="755" type="line"/>
+      <point x="-201" y="755" type="line"/>
+      <point x="-201" y="725" type="line"/>
+      <point x="-171" y="725" type="line"/>
+      <point x="-171" y="695" type="line"/>
+      <point x="-201" y="695" type="line"/>
+      <point x="-201" y="671" type="line"/>
+    </contour>
+    <contour>
+      <point x="-111" y="695" type="line"/>
+      <point x="-141" y="695" type="line"/>
+      <point x="-141" y="725" type="line"/>
+      <point x="-111" y="725" type="line"/>
+    </contour>
+    <contour>
+      <point x="-81" y="695" type="line"/>
+      <point x="-81" y="725" type="line"/>
+      <point x="-52" y="725" type="line"/>
+      <point x="-52" y="695" type="line"/>
+    </contour>
+    <contour>
+      <point x="-141" y="695" type="line"/>
+      <point x="-141" y="671" type="line"/>
+      <point x="-171" y="671" type="line"/>
+      <point x="-171" y="695" type="line"/>
+    </contour>
+    <contour>
+      <point x="-81" y="695" type="line"/>
+      <point x="-81" y="671" type="line"/>
+      <point x="-111" y="671" type="line"/>
+      <point x="-111" y="695" type="line"/>
+    </contour>
+    <contour>
+      <point x="-261" y="755" type="line"/>
+      <point x="-261" y="774" type="line"/>
+      <point x="-231" y="774" type="line"/>
+      <point x="-231" y="755" type="line"/>
+    </contour>
+    <contour>
+      <point x="-201" y="755" type="line"/>
+      <point x="-201" y="774" type="line"/>
+      <point x="-171" y="774" type="line"/>
+      <point x="-171" y="755" type="line"/>
+    </contour>
+    <contour>
+      <point x="-291" y="755" type="line"/>
+      <point x="-308" y="755" type="line"/>
+      <point x="-308" y="774" type="line"/>
+      <point x="-291" y="774" type="line"/>
+    </contour>
+  </outline>
+</glyph>

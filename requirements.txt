@@ -1,4 +1,6 @@
-brotli==1.2.1
-fonttools==4.60.2
-numpy==2.0.2
-skia-pathops==0.8.0.post2
+fonttools>=4.50.0
+skia-pathops>=0.8.0
+numpy>=1.26.0
+brotli>=1.1.0
+ufoLib2>=0.18.0
+fontmake>=3.11.0

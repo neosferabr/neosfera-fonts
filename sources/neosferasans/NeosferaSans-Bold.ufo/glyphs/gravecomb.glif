@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gravecomb" format="2">
+  <unicode hex="0300"/>
+  <outline>
+    <contour>
+      <point x="-235" y="733" type="line" smooth="yes"/>
+      <point x="-237" y="737"/>
+      <point x="-237" y="742" type="qcurve" smooth="yes"/>
+      <point x="-237.0" y="745.0"/>
+      <point x="-234.0" y="752.0"/>
+      <point x="-229.0" y="757.0"/>
+      <point x="-223.0" y="760.0"/>
+      <point x="-219.0" y="760.0" type="qcurve" smooth="yes"/>
+      <point x="-139" y="760" type="line" smooth="yes"/>
+      <point x="-128" y="760"/>
+      <point x="-123" y="751" type="qcurve" smooth="yes"/>
+      <point x="-45" y="611" type="line"/>
+      <point x="-43" y="606"/>
+      <point x="-43.0" y="598.0"/>
+      <point x="-46.0" y="592.0"/>
+      <point x="-51.0" y="587.0"/>
+      <point x="-57.0" y="584.0"/>
+      <point x="-61.0" y="584.0" type="qcurve" smooth="yes"/>
+      <point x="-141" y="584" type="line" smooth="yes"/>
+      <point x="-152" y="584"/>
+      <point x="-157" y="593" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

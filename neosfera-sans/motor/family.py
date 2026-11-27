@@ -84,6 +84,12 @@ def build_style(weight, italic):
     raw = {n: g.build_glyph(n, italic=False) for n in NAMES}
     for n in NAMES:
         p = g.finish(g.build_glyph(n, italic=italic) if italic else raw[n])
+        if n in g.COMBINING_MARKS:
+            bx0, _, bx1, _ = p.bounds
+            q = p.transform(1, 0, 0, 1, -(bx0 + bx1) / 2 - 140, 0)
+            if italic: q = g.shear(q)
+            out[n] = dict(path=q, adv=0)
+            continue
         mb = g.ACCENTED.get(n, (None,))[0]
         ref = g.finish(raw[mb]) if mb else (p if not italic else g.finish(raw[n]))
         if mb and italic and mb == 'a': ref = g.finish(g.build_glyph('a', italic=True))

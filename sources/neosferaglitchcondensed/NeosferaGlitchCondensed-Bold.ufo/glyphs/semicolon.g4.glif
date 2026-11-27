@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="semicolon.g4" format="2">
+  <advance width="177"/>
+  <outline>
+    <contour>
+      <point x="18" y="-25" type="line"/>
+      <point x="-3" y="-25" type="line"/>
+      <point x="-3" y="-24" type="line"/>
+      <point x="78" y="-24" type="line"/>
+      <point x="78" y="-25" type="line"/>
+      <point x="96" y="-25" type="line"/>
+      <point x="78" y="-104" type="line"/>
+      <point x="78" y="-85" type="line"/>
+      <point x="48" y="-85" type="line"/>
+      <point x="48" y="-115" type="line"/>
+      <point x="75" y="-115" type="line"/>
+      <point x="69" y="-145" type="line"/>
+      <point x="-18" y="-145" type="line"/>
+      <point x="-6" y="-55" type="line"/>
+      <point x="18" y="-55" type="line"/>
+    </contour>
+    <contour>
+      <point x="84" y="95" type="line"/>
+      <point x="54" y="95" type="line"/>
+      <point x="54" y="67" type="line"/>
+      <point x="24" y="67" type="line"/>
+      <point x="24" y="95" type="line"/>
+      <point x="19" y="95" type="line"/>
+      <point x="26" y="154" type="line"/>
+      <point x="54" y="154" type="line"/>
+      <point x="54" y="125" type="line"/>
+      <point x="84" y="125" type="line"/>
+      <point x="84" y="154" type="line"/>
+      <point x="114" y="154" type="line"/>
+      <point x="114" y="125" type="line"/>
+      <point x="136" y="125" type="line"/>
+      <point x="129" y="95" type="line"/>
+      <point x="114" y="95" type="line"/>
+      <point x="114" y="67" type="line"/>
+      <point x="84" y="67" type="line"/>
+    </contour>
+    <contour>
+      <point x="78" y="-25" type="line"/>
+      <point x="48" y="-25" type="line"/>
+      <point x="48" y="-55" type="line"/>
+      <point x="78" y="-55" type="line"/>
+    </contour>
+    <contour>
+      <point x="84" y="95" type="line"/>
+      <point x="114" y="95" type="line"/>
+      <point x="114" y="125" type="line"/>
+      <point x="84" y="125" type="line"/>
+    </contour>
+  </outline>
+</glyph>

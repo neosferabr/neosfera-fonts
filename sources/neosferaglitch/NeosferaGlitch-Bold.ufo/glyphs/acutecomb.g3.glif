@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acutecomb.g3" format="2">
+  <outline>
+    <contour>
+      <point x="-130" y="659" type="line"/>
+      <point x="-255" y="659" type="line"/>
+      <point x="-255" y="689" type="line"/>
+      <point x="-160" y="738" type="line"/>
+      <point x="-160" y="725" type="line"/>
+      <point x="-130" y="725" type="line"/>
+      <point x="-130" y="695" type="line"/>
+      <point x="-100" y="695" type="line"/>
+      <point x="-100" y="725" type="line"/>
+      <point x="-70" y="725" type="line"/>
+      <point x="-70" y="695" type="line"/>
+      <point x="-100" y="695" type="line"/>
+      <point x="-100" y="665" type="line"/>
+      <point x="-95" y="665" type="line"/>
+      <point x="-100" y="663" type="line"/>
+      <point x="-100" y="665" type="line"/>
+      <point x="-130" y="665" type="line"/>
+    </contour>
+    <contour>
+      <point x="-272" y="592" type="line"/>
+      <point x="-272" y="640" type="line"/>
+      <point x="-255" y="640" type="line"/>
+      <point x="-255" y="650" type="line"/>
+      <point x="-130" y="650" type="line"/>
+      <point x="-130" y="649" type="line"/>
+      <point x="-151" y="640" type="line"/>
+      <point x="-168" y="640" type="line"/>
+    </contour>
+    <contour>
+      <point x="-130" y="665" type="line"/>
+      <point x="-130" y="695" type="line"/>
+      <point x="-160" y="695" type="line"/>
+      <point x="-160" y="665" type="line"/>
+    </contour>
+    <contour>
+      <point x="-190" y="695" type="line"/>
+      <point x="-220" y="695" type="line"/>
+      <point x="-220" y="665" type="line"/>
+      <point x="-190" y="665" type="line"/>
+    </contour>
+  </outline>
+</glyph>

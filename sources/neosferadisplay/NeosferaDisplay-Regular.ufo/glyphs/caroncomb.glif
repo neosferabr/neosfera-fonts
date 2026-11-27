@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caroncomb" format="2">
+  <unicode hex="030C"/>
+  <outline>
+    <contour>
+      <point x="-84" y="581" type="line"/>
+      <point x="-88" y="574"/>
+      <point x="-96" y="574" type="qcurve" smooth="yes"/>
+      <point x="-184" y="574" type="line" smooth="yes"/>
+      <point x="-192" y="574"/>
+      <point x="-196" y="581" type="qcurve"/>
+      <point x="-281" y="707" type="line"/>
+      <point x="-284" y="710"/>
+      <point x="-284" y="715" type="qcurve" smooth="yes"/>
+      <point x="-284.0" y="721.0"/>
+      <point x="-275.0" y="730.0"/>
+      <point x="-269.0" y="730.0" type="qcurve" smooth="yes"/>
+      <point x="-201" y="730" type="line" smooth="yes"/>
+      <point x="-193" y="730"/>
+      <point x="-189" y="723" type="qcurve"/>
+      <point x="-147" y="661" type="line"/>
+      <point x="-146" y="660"/>
+      <point x="-144" y="659" type="qcurve"/>
+      <point x="-142.0" y="657.0"/>
+      <point x="-135.0" y="658.0"/>
+      <point x="-133.0" y="661.0" type="qcurve" smooth="yes"/>
+      <point x="-91" y="723" type="line"/>
+      <point x="-87" y="730"/>
+      <point x="-79" y="730" type="qcurve" smooth="yes"/>
+      <point x="-11" y="730" type="line" smooth="yes"/>
+      <point x="-7" y="730"/>
+      <point x="-3" y="727" type="qcurve"/>
+      <point x="2.0" y="724.0"/>
+      <point x="5.0" y="712.0"/>
+      <point x="1.0" y="707.0" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

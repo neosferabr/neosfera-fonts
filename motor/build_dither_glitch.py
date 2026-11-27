@@ -37,11 +37,12 @@ def path_to_glyph(path):
     return tt.glyph()
 
 def ensure_gf_latin_core(font, is_condensed=False):
-    """Adiciona uni0237 (dotlessj), uni1E9E (Germandbls) e fl caso ausentes para 100% GF_Latin_Core."""
+    """Adiciona glifos ausentes (uni0237, uni1E9E, fl, Hbar, hbar e 14 combining marks) para 100% GF_Latin_Core."""
     glyf = font['glyf']
     hmtx = font['hmtx']
     gs = font.getGlyphSet()
     order = list(font.getGlyphOrder())
+    added = []
 
     # 1. uni0237 (dotlessj) a partir do 'j' cortando o pingo acima da altura de x
     if 'uni0237' not in glyf:
@@ -52,12 +53,14 @@ def ensure_gf_latin_core(font, is_condensed=False):
         glyf['uni0237'] = path_to_glyph(res)
         hmtx['uni0237'] = hmtx['j']
         order.append('uni0237')
+        added.append('uni0237')
 
     # 2. uni1E9E (ẞ) a partir de 'germandbls'
     if 'uni1E9E' not in glyf:
         glyf['uni1E9E'] = copy.deepcopy(glyf['germandbls'])
         hmtx['uni1E9E'] = hmtx['germandbls']
         order.append('uni1E9E')
+        added.append('uni1E9E')
 
     # 3. fl (0xFB02) a partir de 'f' + 'l'
     if 'fl' not in glyf:
@@ -71,20 +74,86 @@ def ensure_gf_latin_core(font, is_condensed=False):
         glyf['fl'] = path_to_glyph(out)
         hmtx['fl'] = (adv_f + adv_l, hmtx['f'][1])
         order.append('fl')
+        added.append('fl')
+
+    # 4. Hbar (0x0126) e hbar (0x0127)
+    def _bar_from_hyphen(x_center, y_center, target_w):
+        ph = Path(); gs['hyphen'].draw(ph.getPen(glyphSet=gs))
+        ph.simplify(fix_winding=True, keep_starting_points=False)
+        bx0, by0, bx1, by1 = ph.bounds
+        bw = max(1.0, bx1 - bx0)
+        sx = target_w / bw
+        cx = (bx0 + bx1) / 2.0
+        cy = (by0 + by1) / 2.0
+        return ph.transform(translateX=-cx, translateY=-cy).transform(scaleX=sx, scaleY=0.9).transform(translateX=x_center, translateY=y_center)
+
+    if 'Hbar' not in glyf and 'H' in glyf and 'hyphen' in glyf:
+        pH = Path(); gs['H'].draw(pH.getPen(glyphSet=gs))
+        pH.simplify(fix_winding=True, keep_starting_points=False)
+        hx0, hy0, hx1, hy1 = pH.bounds
+        bar = _bar_from_hyphen((hx0 + hx1) / 2.0, hy1 * 0.76, (hx1 - hx0) * 1.18)
+        out = Path(); out.addPath(pH); out.addPath(bar); out.simplify(fix_winding=True)
+        glyf['Hbar'] = path_to_glyph(out)
+        hmtx['Hbar'] = hmtx['H']
+        order.append('Hbar'); added.append('Hbar')
+
+    if 'hbar' not in glyf and 'h' in glyf and 'hyphen' in glyf:
+        ph_g = Path(); gs['h'].draw(ph_g.getPen(glyphSet=gs))
+        ph_g.simplify(fix_winding=True, keep_starting_points=False)
+        hx0, hy0, hx1, hy1 = ph_g.bounds
+        bar = _bar_from_hyphen(hx0 + (hx1 - hx0) * 0.25, hy1 * 0.80, (hx1 - hx0) * 0.68)
+        out = Path(); out.addPath(ph_g); out.addPath(bar); out.simplify(fix_winding=True)
+        glyf['hbar'] = path_to_glyph(out)
+        hmtx['hbar'] = hmtx['h']
+        order.append('hbar'); added.append('hbar')
+
+    # 5. 14 Combining Diacritical Marks (0x0300..0x0328) com avanço 0
+    comb_map = [
+        (0x0300, 'gravecomb', 'grave', 0),
+        (0x0301, 'acutecomb', 'acute', 0),
+        (0x0302, 'circumflexcomb', 'circumflex', 0),
+        (0x0303, 'tildecomb', 'tilde', 0),
+        (0x0304, 'macroncomb', 'macron', 0),
+        (0x0306, 'brevecomb', 'breve', 0),
+        (0x0307, 'dotaccentcomb', 'dotaccent', 0),
+        (0x0308, 'dieresiscomb', 'dieresis', 0),
+        (0x030A, 'ringcomb', 'ring', 0),
+        (0x030B, 'hungarumlautcomb', 'hungarumlaut', 0),
+        (0x030C, 'caroncomb', 'caron', 0),
+        (0x0326, 'commaaccentcomb', 'comma', -240),
+        (0x0327, 'cedillacomb', 'cedilla', 0),
+        (0x0328, 'ogonekcomb', 'ogonek', 0),
+    ]
+    for cp, cname, src, dy in comb_map:
+        if cname not in glyf and src in glyf:
+            psrc = Path(); gs[src].draw(psrc.getPen(glyphSet=gs))
+            psrc.simplify(fix_winding=True, keep_starting_points=False)
+            bx0, _, bx1, _ = psrc.bounds
+            dx = -(bx0 + bx1) / 2.0 - 180
+            pcomb = psrc.transform(translateX=dx, translateY=dy)
+            glyf[cname] = path_to_glyph(pcomb)
+            hmtx[cname] = (0, 0)
+            order.append(cname); added.append(cname)
 
     font.setGlyphOrder(order)
     glyf.glyphOrder = order
 
-    for n in ('uni0237', 'uni1E9E', 'fl'):
+    for n in added:
         g = glyf[n]
         g.recalcBounds(glyf)
-        hmtx[n] = (hmtx[n][0], getattr(g, 'xMin', 0) if g.numberOfContours else 0)
+        adv = 0 if n.endswith('comb') else hmtx[n][0]
+        hmtx[n] = (adv, getattr(g, 'xMin', 0) if g.numberOfContours else 0)
 
+    extra_cmap = {
+        0x0237: 'uni0237', 0x1E9E: 'uni1E9E', 0xFB02: 'fl',
+        0x0126: 'Hbar', 0x0127: 'hbar',
+        **{cp: cname for cp, cname, _, _ in comb_map},
+    }
     for subtable in font['cmap'].tables:
         if subtable.isUnicode():
-            subtable.cmap[0x0237] = 'uni0237'
-            subtable.cmap[0x1E9E] = 'uni1E9E'
-            subtable.cmap[0xFB02] = 'fl'
+            for cp, gn in extra_cmap.items():
+                if gn in glyf:
+                    subtable.cmap[cp] = gn
 
 def apply_gf_metadata(font, family, sub, is_condensed=False):
     bold = (sub == 'Bold')

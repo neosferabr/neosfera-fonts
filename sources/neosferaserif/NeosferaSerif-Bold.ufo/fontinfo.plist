@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>ascender</key>
+    <integer>960</integer>
+    <key>capHeight</key>
+    <integer>700</integer>
+    <key>copyright</key>
+    <string>Copyright 2026 The Neosfera Project Authors (https://neosfera.com.br)</string>
+    <key>descender</key>
+    <integer>-260</integer>
+    <key>familyName</key>
+    <string>Neosfera Serif</string>
+    <key>italicAngle</key>
+    <real>0.0</real>
+    <key>openTypeHheaAscender</key>
+    <integer>960</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-260</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>0</integer>
+    <key>openTypeNameDesigner</key>
+    <string>Neosfera</string>
+    <key>openTypeNameDesignerURL</key>
+    <string>https://neosfera.com.br</string>
+    <key>openTypeNameLicense</key>
+    <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
+    <key>openTypeNameLicenseURL</key>
+    <string>https://scripts.sil.org/OFL</string>
+    <key>openTypeNameManufacturer</key>
+    <string>Neosfera</string>
+    <key>openTypeNameManufacturerURL</key>
+    <string>https://neosfera.com.br</string>
+    <key>openTypeNamePreferredFamilyName</key>
+    <string>Neosfera Serif</string>
+    <key>openTypeNamePreferredSubfamilyName</key>
+    <string>Bold</string>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>960</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-260</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>0</integer>
+    <key>openTypeOS2VendorID</key>
+    <string>NEOS</string>
+    <key>openTypeOS2WeightClass</key>
+    <integer>700</integer>
+    <key>openTypeOS2WidthClass</key>
+    <integer>5</integer>
+    <key>openTypeOS2WinAscent</key>
+    <integer>980</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>260</integer>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-120</integer>
+    <key>postscriptUnderlineThickness</key>
+    <integer>81</integer>
+    <key>styleName</key>
+    <string>Bold</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>0</integer>
+    <key>xHeight</key>
+    <integer>520</integer>
+  </dict>
+</plist>

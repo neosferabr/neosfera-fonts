@@ -1,0 +1,2320 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ampersand.g4" format="2">
+  <advance width="653"/>
+  <outline>
+    <contour>
+      <point x="83" y="83" type="line"/>
+      <point x="81" y="85"/>
+      <point x="80" y="88" type="qcurve"/>
+      <point x="59" y="121"/>
+      <point x="54" y="162" type="qcurve"/>
+      <point x="18" y="162" type="line"/>
+      <point x="18" y="166"/>
+      <point x="18" y="170" type="qcurve"/>
+      <point x="33" y="170" type="line"/>
+      <point x="33" y="185" type="line"/>
+      <point x="18" y="185" type="line"/>
+      <point x="18" y="174" type="line"/>
+      <point x="17.0" y="182.0"/>
+      <point x="17.0" y="200.0"/>
+      <point x="18.0" y="209.0" type="qcurve"/>
+      <point x="18" y="200" type="line"/>
+      <point x="33" y="200" type="line"/>
+      <point x="33" y="215" type="line"/>
+      <point x="19" y="215" type="line"/>
+      <point x="19" y="223"/>
+      <point x="21" y="230" type="qcurve"/>
+      <point x="33" y="230" type="line"/>
+      <point x="33" y="245" type="line"/>
+      <point x="24" y="245" type="line"/>
+      <point x="24" y="247"/>
+      <point x="25" y="250" type="qcurve"/>
+      <point x="43" y="250" type="line"/>
+      <point x="45" y="255"/>
+      <point x="47" y="260" type="qcurve"/>
+      <point x="51" y="260" type="line"/>
+      <point x="51" y="269" type="line"/>
+      <point x="57" y="283"/>
+      <point x="66" y="294" type="qcurve"/>
+      <point x="66" y="290" type="line"/>
+      <point x="81" y="290" type="line"/>
+      <point x="81" y="305" type="line"/>
+      <point x="75" y="305" type="line"/>
+      <point x="84" y="314"/>
+      <point x="94" y="322" type="qcurve"/>
+      <point x="95" y="323"/>
+      <point x="96" y="323" type="qcurve"/>
+      <point x="96" y="320" type="line"/>
+      <point x="111" y="320" type="line"/>
+      <point x="111" y="333" type="line"/>
+      <point x="131" y="346"/>
+      <point x="156" y="353" type="qcurve"/>
+      <point x="156" y="350" type="line"/>
+      <point x="171" y="350" type="line"/>
+      <point x="171" y="365" type="line"/>
+      <point x="156" y="365" type="line"/>
+      <point x="156" y="360" type="line"/>
+      <point x="149" y="362"/>
+      <point x="143" y="365" type="qcurve"/>
+      <point x="156" y="365" type="line"/>
+      <point x="156" y="380" type="line"/>
+      <point x="141" y="380" type="line"/>
+      <point x="141" y="366" type="line"/>
+      <point x="126" y="373"/>
+      <point x="111" y="384" type="qcurve"/>
+      <point x="111" y="395" type="line"/>
+      <point x="97" y="395" type="line"/>
+      <point x="89" y="403"/>
+      <point x="81" y="413" type="qcurve"/>
+      <point x="81" y="425" type="line"/>
+      <point x="72" y="425" type="line"/>
+      <point x="68" y="431"/>
+      <point x="65" y="438" type="qcurve"/>
+      <point x="61" y="446"/>
+      <point x="57" y="455" type="qcurve"/>
+      <point x="66" y="455" type="line"/>
+      <point x="66" y="440" type="line"/>
+      <point x="81" y="440" type="line"/>
+      <point x="81" y="455" type="line"/>
+      <point x="96" y="455" type="line"/>
+      <point x="96" y="440" type="line"/>
+      <point x="111" y="440" type="line"/>
+      <point x="111" y="455" type="line"/>
+      <point x="110" y="455" type="line"/>
+      <point x="106" y="466"/>
+      <point x="103" y="478" type="qcurve"/>
+      <point x="103" y="485" type="line"/>
+      <point x="102" y="485" type="line"/>
+      <point x="101" y="492"/>
+      <point x="101" y="500" type="qcurve"/>
+      <point x="103" y="500" type="line"/>
+      <point x="103" y="515" type="line"/>
+      <point x="100" y="515" type="line"/>
+      <point x="101" y="523"/>
+      <point x="101" y="530" type="qcurve"/>
+      <point x="103" y="530" type="line"/>
+      <point x="103" y="542" type="line"/>
+      <point x="105" y="549"/>
+      <point x="106" y="555" type="qcurve"/>
+      <point x="106" y="555" type="line"/>
+      <point x="108" y="565"/>
+      <point x="111" y="575" type="qcurve"/>
+      <point x="118" y="575" type="line"/>
+      <point x="118" y="590" type="line"/>
+      <point x="117" y="590" type="line"/>
+      <point x="118" y="591" type="line"/>
+      <point x="118" y="590" type="line"/>
+      <point x="133" y="590" type="line"/>
+      <point x="133" y="605" type="line"/>
+      <point x="125" y="605" type="line"/>
+      <point x="126" y="607"/>
+      <point x="127" y="608" type="qcurve"/>
+      <point x="133" y="618" type="line"/>
+      <point x="133" y="605" type="line"/>
+      <point x="148" y="605" type="line"/>
+      <point x="148" y="620" type="line"/>
+      <point x="134" y="620" type="line"/>
+      <point x="146" y="636"/>
+      <point x="161" y="650" type="qcurve"/>
+      <point x="163" y="650" type="line"/>
+      <point x="163" y="652" type="line"/>
+      <point x="170" y="658"/>
+      <point x="178" y="664" type="qcurve"/>
+      <point x="178" y="650" type="line"/>
+      <point x="193" y="650" type="line"/>
+      <point x="193" y="665" type="line"/>
+      <point x="179" y="665" type="line"/>
+      <point x="186" y="670"/>
+      <point x="193" y="674" type="qcurve"/>
+      <point x="193" y="665" type="line"/>
+      <point x="208" y="665" type="line"/>
+      <point x="208" y="680" type="line"/>
+      <point x="204" y="680" type="line"/>
+      <point x="208" y="682" type="line"/>
+      <point x="208" y="680" type="line"/>
+      <point x="223" y="680" type="line"/>
+      <point x="223" y="689" type="line"/>
+      <point x="230" y="692"/>
+      <point x="238" y="694" type="qcurve"/>
+      <point x="238" y="680" type="line"/>
+      <point x="253" y="680" type="line"/>
+      <point x="253" y="665" type="line"/>
+      <point x="268" y="665" type="line"/>
+      <point x="268" y="680" type="line"/>
+      <point x="283" y="680" type="line"/>
+      <point x="283" y="695" type="line"/>
+      <point x="268" y="695" type="line"/>
+      <point x="268" y="702" type="line"/>
+      <point x="275" y="703"/>
+      <point x="283" y="704" type="qcurve"/>
+      <point x="283" y="695" type="line"/>
+      <point x="298" y="695" type="line"/>
+      <point x="298" y="706" type="line"/>
+      <point x="305" y="706"/>
+      <point x="313" y="707" type="qcurve"/>
+      <point x="313" y="695" type="line"/>
+      <point x="298" y="695" type="line"/>
+      <point x="298" y="680" type="line"/>
+      <point x="313" y="680" type="line"/>
+      <point x="313" y="665" type="line"/>
+      <point x="328" y="665" type="line"/>
+      <point x="328" y="680" type="line"/>
+      <point x="343" y="680" type="line"/>
+      <point x="343" y="695" type="line"/>
+      <point x="328" y="695" type="line"/>
+      <point x="328" y="707" type="line"/>
+      <point x="343" y="707" type="line"/>
+      <point x="343" y="695" type="line"/>
+      <point x="358" y="695" type="line"/>
+      <point x="358" y="706" type="line"/>
+      <point x="366" y="705"/>
+      <point x="373" y="704" type="qcurve"/>
+      <point x="373" y="695" type="line"/>
+      <point x="358" y="695" type="line"/>
+      <point x="358" y="680" type="line"/>
+      <point x="373" y="680" type="line"/>
+      <point x="373" y="665" type="line"/>
+      <point x="388" y="665" type="line"/>
+      <point x="388" y="680" type="line"/>
+      <point x="403" y="680" type="line"/>
+      <point x="403" y="695" type="line"/>
+      <point x="388" y="695" type="line"/>
+      <point x="388" y="702" type="line"/>
+      <point x="396" y="701"/>
+      <point x="403" y="699" type="qcurve"/>
+      <point x="403" y="695" type="line"/>
+      <point x="418" y="695" type="line"/>
+      <point x="418" y="696" type="line"/>
+      <point x="419" y="695"/>
+      <point x="420" y="695" type="qcurve"/>
+      <point x="418" y="695" type="line"/>
+      <point x="418" y="680" type="line"/>
+      <point x="433" y="680" type="line"/>
+      <point x="433" y="665" type="line"/>
+      <point x="448" y="665" type="line"/>
+      <point x="448" y="680" type="line"/>
+      <point x="460" y="680" type="line"/>
+      <point x="461" y="679"/>
+      <point x="463" y="678" type="qcurve"/>
+      <point x="463" y="665" type="line"/>
+      <point x="448" y="665" type="line"/>
+      <point x="448" y="650" type="line"/>
+      <point x="463" y="650" type="line"/>
+      <point x="463" y="635" type="line"/>
+      <point x="478" y="635" type="line"/>
+      <point x="478" y="650" type="line"/>
+      <point x="493" y="650" type="line"/>
+      <point x="493" y="660" type="line"/>
+      <point x="500" y="655"/>
+      <point x="506" y="650" type="qcurve"/>
+      <point x="493" y="650" type="line"/>
+      <point x="493" y="635" type="line"/>
+      <point x="478" y="635" type="line"/>
+      <point x="478" y="620" type="line"/>
+      <point x="493" y="620" type="line"/>
+      <point x="493" y="612" type="line"/>
+      <point x="483" y="605" type="line"/>
+      <point x="478" y="605" type="line"/>
+      <point x="478" y="620" type="line"/>
+      <point x="463" y="620" type="line"/>
+      <point x="463" y="605" type="line"/>
+      <point x="448" y="605" type="line"/>
+      <point x="448" y="590" type="line"/>
+      <point x="461" y="590" type="line"/>
+      <point x="448" y="581" type="line"/>
+      <point x="448" y="590" type="line"/>
+      <point x="433" y="590" type="line"/>
+      <point x="433" y="575" type="line"/>
+      <point x="418" y="575" type="line"/>
+      <point x="418" y="560" type="line"/>
+      <point x="415" y="560" type="line"/>
+      <point x="410" y="566"/>
+      <point x="403" y="571" type="qcurve"/>
+      <point x="403" y="575" type="line"/>
+      <point x="397" y="575" type="line"/>
+      <point x="393" y="578"/>
+      <point x="388" y="580" type="qcurve"/>
+      <point x="388" y="590" type="line"/>
+      <point x="373" y="590" type="line"/>
+      <point x="373" y="587" type="line"/>
+      <point x="366" y="589"/>
+      <point x="358" y="590" type="qcurve" smooth="yes"/>
+      <point x="351" y="591"/>
+      <point x="343" y="592" type="qcurve"/>
+      <point x="343" y="605" type="line"/>
+      <point x="328" y="605" type="line"/>
+      <point x="328" y="592" type="line"/>
+      <point x="320" y="591"/>
+      <point x="313" y="590" type="qcurve"/>
+      <point x="313" y="605" type="line"/>
+      <point x="298" y="605" type="line"/>
+      <point x="298" y="590" type="line"/>
+      <point x="310" y="590" type="line"/>
+      <point x="304" y="589"/>
+      <point x="298" y="587" type="qcurve"/>
+      <point x="298" y="590" type="line"/>
+      <point x="283" y="590" type="line"/>
+      <point x="283" y="582" type="line"/>
+      <point x="277" y="579"/>
+      <point x="272" y="575" type="qcurve"/>
+      <point x="268" y="575" type="line"/>
+      <point x="268" y="572" type="line"/>
+      <point x="264" y="568"/>
+      <point x="260" y="563" type="qcurve"/>
+      <point x="258" y="562"/>
+      <point x="257" y="560" type="qcurve"/>
+      <point x="253" y="560" type="line"/>
+      <point x="253" y="555" type="line"/>
+      <point x="253" y="555" type="line"/>
+      <point x="253" y="554" type="line"/>
+      <point x="250" y="550"/>
+      <point x="248" y="545" type="qcurve"/>
+      <point x="238" y="545" type="line"/>
+      <point x="238" y="530" type="line"/>
+      <point x="241" y="530" type="line"/>
+      <point x="239" y="523"/>
+      <point x="238" y="516" type="qcurve"/>
+      <point x="238" y="530" type="line"/>
+      <point x="223" y="530" type="line"/>
+      <point x="223" y="515" type="line"/>
+      <point x="238" y="515" type="line"/>
+      <point x="236" y="504"/>
+      <point x="236" y="492" type="qcurve" smooth="yes"/>
+      <point x="236" y="481"/>
+      <point x="238" y="471" type="qcurve"/>
+      <point x="238" y="470" type="line"/>
+      <point x="240" y="462"/>
+      <point x="244" y="455" type="qcurve"/>
+      <point x="238" y="455" type="line"/>
+      <point x="238" y="455" type="line"/>
+      <point x="223" y="455" type="line"/>
+      <point x="223" y="455" type="line"/>
+      <point x="208" y="455" type="line"/>
+      <point x="208" y="455" type="line"/>
+      <point x="193" y="455" type="line"/>
+      <point x="193" y="455" type="line"/>
+      <point x="178" y="455" type="line"/>
+      <point x="178" y="455" type="line"/>
+      <point x="186" y="455" type="line"/>
+      <point x="186" y="440" type="line"/>
+      <point x="201" y="440" type="line"/>
+      <point x="201" y="442" type="line"/>
+      <point x="201" y="441"/>
+      <point x="202" y="441" type="qcurve"/>
+      <point x="202" y="440" type="line"/>
+      <point x="201" y="440" type="line"/>
+      <point x="201" y="425" type="line"/>
+      <point x="216" y="425" type="line"/>
+      <point x="216" y="429" type="line"/>
+      <point x="219" y="427"/>
+      <point x="223" y="425" type="qcurve"/>
+      <point x="216" y="425" type="line"/>
+      <point x="216" y="410" type="line"/>
+      <point x="231" y="410" type="line"/>
+      <point x="231" y="421" type="line"/>
+      <point x="238" y="418"/>
+      <point x="246" y="416" type="qcurve"/>
+      <point x="246" y="410" type="line"/>
+      <point x="261" y="410" type="line"/>
+      <point x="261" y="412" type="line"/>
+      <point x="275" y="410"/>
+      <point x="291" y="408" type="qcurve"/>
+      <point x="291" y="395" type="line"/>
+      <point x="306" y="395" type="line"/>
+      <point x="306" y="407" type="line"/>
+      <point x="313" y="407"/>
+      <point x="321" y="406" type="qcurve"/>
+      <point x="321" y="395" type="line"/>
+      <point x="336" y="395" type="line"/>
+      <point x="336" y="406" type="line"/>
+      <point x="344" y="407"/>
+      <point x="351" y="408" type="qcurve"/>
+      <point x="351" y="395" type="line"/>
+      <point x="366" y="395" type="line"/>
+      <point x="366" y="410" type="line"/>
+      <point x="359" y="410" type="line"/>
+      <point x="360" y="410"/>
+      <point x="361" y="411" type="qcurve"/>
+      <point x="364" y="412"/>
+      <point x="366" y="413" type="qcurve"/>
+      <point x="366" y="410" type="line"/>
+      <point x="381" y="410" type="line"/>
+      <point x="381" y="425" type="line"/>
+      <point x="377" y="425" type="line"/>
+      <point x="379" y="428"/>
+      <point x="380" y="431" type="qcurve"/>
+      <point x="381" y="432"/>
+      <point x="381" y="433" type="qcurve"/>
+      <point x="381" y="425" type="line"/>
+      <point x="396" y="425" type="line"/>
+      <point x="396" y="440" type="line"/>
+      <point x="411" y="440" type="line"/>
+      <point x="411" y="455" type="line"/>
+      <point x="426" y="455" type="line"/>
+      <point x="426" y="442" type="line"/>
+      <point x="471" y="442" type="line"/>
+      <point x="471" y="455" type="line"/>
+      <point x="463" y="455" type="line"/>
+      <point x="463" y="455" type="line"/>
+      <point x="448" y="455" type="line"/>
+      <point x="448" y="470" type="line"/>
+      <point x="439" y="470" type="line"/>
+      <point x="439" y="485" type="line"/>
+      <point x="448" y="485" type="line"/>
+      <point x="448" y="500" type="line"/>
+      <point x="463" y="500" type="line"/>
+      <point x="463" y="515" type="line"/>
+      <point x="448" y="515" type="line"/>
+      <point x="448" y="519" type="line"/>
+      <point x="463" y="519" type="line"/>
+      <point x="463" y="515" type="line"/>
+      <point x="478" y="515" type="line"/>
+      <point x="478" y="519" type="line"/>
+      <point x="493" y="519" type="line"/>
+      <point x="493" y="515" type="line"/>
+      <point x="478" y="515" type="line"/>
+      <point x="478" y="500" type="line"/>
+      <point x="493" y="500" type="line"/>
+      <point x="493" y="485" type="line"/>
+      <point x="508" y="485" type="line"/>
+      <point x="508" y="500" type="line"/>
+      <point x="523" y="500" type="line"/>
+      <point x="523" y="515" type="line"/>
+      <point x="508" y="515" type="line"/>
+      <point x="508" y="519" type="line"/>
+      <point x="523" y="519" type="line"/>
+      <point x="523" y="515" type="line"/>
+      <point x="538" y="515" type="line"/>
+      <point x="538" y="519" type="line"/>
+      <point x="553" y="519" type="line"/>
+      <point x="553" y="515" type="line"/>
+      <point x="538" y="515" type="line"/>
+      <point x="538" y="500" type="line"/>
+      <point x="553" y="500" type="line"/>
+      <point x="553" y="485" type="line"/>
+      <point x="565" y="485" type="line"/>
+      <point x="565" y="470" type="line"/>
+      <point x="553" y="470" type="line"/>
+      <point x="553" y="455" type="line"/>
+      <point x="538" y="455" type="line"/>
+      <point x="538" y="455" type="line"/>
+      <point x="523" y="455" type="line"/>
+      <point x="523" y="455" type="line"/>
+      <point x="508" y="455" type="line"/>
+      <point x="508" y="470" type="line"/>
+      <point x="493" y="470" type="line"/>
+      <point x="493" y="455" type="line"/>
+      <point x="478" y="455" type="line"/>
+      <point x="478" y="455" type="line"/>
+      <point x="486" y="455" type="line"/>
+      <point x="486" y="442" type="line"/>
+      <point x="852" y="442" type="line"/>
+      <point x="852" y="428" type="line"/>
+      <point x="501" y="428" type="line"/>
+      <point x="501" y="425" type="line"/>
+      <point x="513" y="425" type="line"/>
+      <point x="513" y="421" type="line"/>
+      <point x="1040" y="421" type="line"/>
+      <point x="1040" y="406" type="line"/>
+      <point x="501" y="406" type="line"/>
+      <point x="501" y="395" type="line"/>
+      <point x="486" y="395" type="line"/>
+      <point x="486" y="380" type="line"/>
+      <point x="501" y="380" type="line"/>
+      <point x="501" y="365" type="line"/>
+      <point x="516" y="365" type="line"/>
+      <point x="516" y="380" type="line"/>
+      <point x="531" y="380" type="line"/>
+      <point x="531" y="395" type="line"/>
+      <point x="516" y="395" type="line"/>
+      <point x="516" y="406" type="line"/>
+      <point x="531" y="406" type="line"/>
+      <point x="531" y="395" type="line"/>
+      <point x="546" y="395" type="line"/>
+      <point x="546" y="406" type="line"/>
+      <point x="561" y="406" type="line"/>
+      <point x="561" y="395" type="line"/>
+      <point x="546" y="395" type="line"/>
+      <point x="546" y="380" type="line"/>
+      <point x="561" y="380" type="line"/>
+      <point x="561" y="365" type="line"/>
+      <point x="576" y="365" type="line"/>
+      <point x="576" y="380" type="line"/>
+      <point x="591" y="380" type="line"/>
+      <point x="591" y="365" type="line"/>
+      <point x="576" y="365" type="line"/>
+      <point x="576" y="350" type="line"/>
+      <point x="591" y="350" type="line"/>
+      <point x="591" y="335" type="line"/>
+      <point x="606" y="335" type="line"/>
+      <point x="606" y="350" type="line"/>
+      <point x="621" y="350" type="line"/>
+      <point x="621" y="365" type="line"/>
+      <point x="606" y="365" type="line"/>
+      <point x="606" y="380" type="line"/>
+      <point x="621" y="380" type="line"/>
+      <point x="621" y="365" type="line"/>
+      <point x="624" y="365" type="line"/>
+      <point x="624" y="350" type="line"/>
+      <point x="621" y="350" type="line"/>
+      <point x="621" y="335" type="line"/>
+      <point x="606" y="335" type="line"/>
+      <point x="606" y="320" type="line"/>
+      <point x="621" y="320" type="line"/>
+      <point x="621" y="305" type="line"/>
+      <point x="624" y="305" type="line"/>
+      <point x="624" y="298" type="line"/>
+      <point x="621" y="298" type="line"/>
+      <point x="621" y="305" type="line"/>
+      <point x="606" y="305" type="line"/>
+      <point x="606" y="320" type="line"/>
+      <point x="591" y="320" type="line"/>
+      <point x="591" y="305" type="line"/>
+      <point x="576" y="305" type="line"/>
+      <point x="576" y="298" type="line"/>
+      <point x="561" y="298" type="line"/>
+      <point x="561" y="305" type="line"/>
+      <point x="546" y="305" type="line"/>
+      <point x="546" y="298" type="line"/>
+      <point x="531" y="298" type="line"/>
+      <point x="531" y="305" type="line"/>
+      <point x="516" y="305" type="line"/>
+      <point x="516" y="298" type="line"/>
+      <point x="513" y="298" type="line"/>
+      <point x="513" y="290" type="line"/>
+      <point x="501" y="290" type="line"/>
+      <point x="501" y="275" type="line"/>
+      <point x="513" y="275" type="line"/>
+      <point x="513" y="260" type="line"/>
+      <point x="501" y="260" type="line"/>
+      <point x="501" y="250" type="line"/>
+      <point x="486" y="250" type="line"/>
+      <point x="486" y="260" type="line"/>
+      <point x="471" y="260" type="line"/>
+      <point x="471" y="250" type="line"/>
+      <point x="483" y="250" type="line"/>
+      <point x="483" y="245" type="line"/>
+      <point x="495" y="245" type="line"/>
+      <point x="495" y="230" type="line"/>
+      <point x="483" y="230" type="line"/>
+      <point x="483" y="215" type="line"/>
+      <point x="495" y="215" type="line"/>
+      <point x="495" y="200" type="line"/>
+      <point x="483" y="200" type="line"/>
+      <point x="483" y="185" type="line"/>
+      <point x="495" y="185" type="line"/>
+      <point x="495" y="184" type="line" smooth="yes"/>
+      <point x="495" y="177"/>
+      <point x="496" y="170" type="qcurve"/>
+      <point x="483" y="170" type="line"/>
+      <point x="483" y="162" type="line"/>
+      <point x="488" y="162" type="line"/>
+      <point x="488" y="155" type="line"/>
+      <point x="503" y="155" type="line"/>
+      <point x="503" y="162" type="line"/>
+      <point x="518" y="162" type="line"/>
+      <point x="518" y="155" type="line"/>
+      <point x="533" y="155" type="line"/>
+      <point x="533" y="140" type="line"/>
+      <point x="538" y="140" type="line"/>
+      <point x="542" y="132"/>
+      <point x="548" y="127" type="qcurve"/>
+      <point x="548" y="125" type="line"/>
+      <point x="551" y="125" type="line"/>
+      <point x="556" y="121"/>
+      <point x="563" y="118" type="qcurve"/>
+      <point x="563" y="110" type="line"/>
+      <point x="578" y="110" type="line"/>
+      <point x="578" y="114" type="line"/>
+      <point x="585" y="112"/>
+      <point x="593" y="112" type="qcurve"/>
+      <point x="593" y="110" type="line"/>
+      <point x="608" y="110" type="line"/>
+      <point x="608" y="112" type="line"/>
+      <point x="618" y="112" type="line" smooth="yes"/>
+      <point x="620" y="112"/>
+      <point x="623" y="113" type="qcurve"/>
+      <point x="623" y="110" type="line"/>
+      <point x="638" y="110" type="line"/>
+      <point x="638" y="114" type="line"/>
+      <point x="640" y="115"/>
+      <point x="641" y="115" type="qcurve"/>
+      <point x="641" y="110" type="line"/>
+      <point x="638" y="110" type="line"/>
+      <point x="638" y="95" type="line"/>
+      <point x="623" y="95" type="line"/>
+      <point x="623" y="80" type="line"/>
+      <point x="638" y="80" type="line"/>
+      <point x="638" y="65" type="line"/>
+      <point x="641" y="65" type="line"/>
+      <point x="641" y="50" type="line"/>
+      <point x="638" y="50" type="line"/>
+      <point x="638" y="35" type="line"/>
+      <point x="641" y="35" type="line"/>
+      <point x="641" y="20" type="line"/>
+      <point x="638" y="20" type="line"/>
+      <point x="638" y="5" type="line"/>
+      <point x="641" y="5" type="line"/>
+      <point x="640" y="4"/>
+      <point x="638" y="4" type="qcurve"/>
+      <point x="638" y="5" type="line"/>
+      <point x="623" y="5" type="line"/>
+      <point x="623" y="1" type="line"/>
+      <point x="615" y="0"/>
+      <point x="608" y="-1" type="qcurve"/>
+      <point x="608" y="5" type="line"/>
+      <point x="593" y="5" type="line"/>
+      <point x="593" y="-2" type="line"/>
+      <point x="585" y="-3"/>
+      <point x="578" y="-3" type="qcurve"/>
+      <point x="578" y="5" type="line"/>
+      <point x="563" y="5" type="line"/>
+      <point x="563" y="-3" type="line"/>
+      <point x="555" y="-2"/>
+      <point x="548" y="-1" type="qcurve"/>
+      <point x="548" y="5" type="line"/>
+      <point x="533" y="5" type="line"/>
+      <point x="533" y="1" type="line"/>
+      <point x="525" y="3"/>
+      <point x="518" y="5" type="qcurve"/>
+      <point x="516" y="5" type="line"/>
+      <point x="502" y="9"/>
+      <point x="488" y="15" type="qcurve" smooth="yes"/>
+      <point x="483" y="17"/>
+      <point x="477" y="20" type="qcurve"/>
+      <point x="488" y="20" type="line"/>
+      <point x="488" y="35" type="line"/>
+      <point x="473" y="35" type="line"/>
+      <point x="473" y="22" type="line"/>
+      <point x="465" y="27"/>
+      <point x="458" y="32" type="qcurve"/>
+      <point x="458" y="35" type="line"/>
+      <point x="455" y="35" type="line"/>
+      <point x="453" y="36"/>
+      <point x="451" y="38" type="qcurve"/>
+      <point x="450" y="36"/>
+      <point x="448" y="35" type="qcurve"/>
+      <point x="443" y="35" type="line"/>
+      <point x="443" y="32" type="line"/>
+      <point x="436" y="27"/>
+      <point x="428" y="23" type="qcurve"/>
+      <point x="428" y="35" type="line"/>
+      <point x="413" y="35" type="line"/>
+      <point x="413" y="20" type="line"/>
+      <point x="423" y="20" type="line"/>
+      <point x="418" y="18"/>
+      <point x="414" y="16" type="qcurve"/>
+      <point x="393" y="7"/>
+      <point x="368" y="1" type="qcurve"/>
+      <point x="368" y="5" type="line"/>
+      <point x="353" y="5" type="line"/>
+      <point x="353" y="-2" type="line"/>
+      <point x="346" y="-3"/>
+      <point x="338" y="-4" type="qcurve"/>
+      <point x="338" y="5" type="line"/>
+      <point x="323" y="5" type="line"/>
+      <point x="323" y="-6" type="line"/>
+      <point x="316" y="-6"/>
+      <point x="308" y="-7" type="qcurve"/>
+      <point x="308" y="5" type="line"/>
+      <point x="293" y="5" type="line"/>
+      <point x="293" y="-7" type="line"/>
+      <point x="289" y="-7" type="line" smooth="yes"/>
+      <point x="268" y="-7"/>
+      <point x="248" y="-5" type="qcurve"/>
+      <point x="248" y="5" type="line"/>
+      <point x="233" y="5" type="line"/>
+      <point x="233" y="-3" type="line"/>
+      <point x="192" y="3"/>
+      <point x="160" y="18" type="qcurve" smooth="yes"/>
+      <point x="156" y="20" type="line"/>
+      <point x="158" y="20" type="line"/>
+      <point x="158" y="35" type="line"/>
+      <point x="143" y="35" type="line"/>
+      <point x="143" y="27" type="line"/>
+      <point x="107" y="48"/>
+      <point x="85" y="80" type="qcurve"/>
+      <point x="98" y="80" type="line"/>
+      <point x="98" y="95" type="line"/>
+      <point x="83" y="95" type="line"/>
+    </contour>
+    <contour>
+      <point x="428" y="50" type="line"/>
+      <point x="428" y="35" type="line"/>
+      <point x="443" y="35" type="line"/>
+      <point x="443" y="50" type="line"/>
+      <point x="458" y="50" type="line"/>
+      <point x="458" y="65" type="line"/>
+      <point x="473" y="65" type="line"/>
+      <point x="473" y="50" type="line"/>
+      <point x="488" y="50" type="line"/>
+      <point x="488" y="35" type="line"/>
+      <point x="503" y="35" type="line"/>
+      <point x="503" y="20" type="line"/>
+      <point x="518" y="20" type="line"/>
+      <point x="518" y="5" type="line"/>
+      <point x="533" y="5" type="line"/>
+      <point x="533" y="20" type="line"/>
+      <point x="548" y="20" type="line"/>
+      <point x="548" y="35" type="line"/>
+      <point x="563" y="35" type="line"/>
+      <point x="563" y="20" type="line"/>
+      <point x="578" y="20" type="line"/>
+      <point x="578" y="5" type="line"/>
+      <point x="593" y="5" type="line"/>
+      <point x="593" y="20" type="line"/>
+      <point x="608" y="20" type="line"/>
+      <point x="608" y="5" type="line"/>
+      <point x="623" y="5" type="line"/>
+      <point x="623" y="20" type="line"/>
+      <point x="638" y="20" type="line"/>
+      <point x="638" y="35" type="line"/>
+      <point x="623" y="35" type="line"/>
+      <point x="623" y="50" type="line"/>
+      <point x="638" y="50" type="line"/>
+      <point x="638" y="65" type="line"/>
+      <point x="623" y="65" type="line"/>
+      <point x="623" y="80" type="line"/>
+      <point x="608" y="80" type="line"/>
+      <point x="608" y="95" type="line"/>
+      <point x="623" y="95" type="line"/>
+      <point x="623" y="110" type="line"/>
+      <point x="608" y="110" type="line"/>
+      <point x="608" y="95" type="line"/>
+      <point x="593" y="95" type="line"/>
+      <point x="593" y="110" type="line"/>
+      <point x="578" y="110" type="line"/>
+      <point x="578" y="95" type="line"/>
+      <point x="563" y="95" type="line"/>
+      <point x="563" y="110" type="line"/>
+      <point x="548" y="110" type="line"/>
+      <point x="548" y="125" type="line"/>
+      <point x="533" y="125" type="line"/>
+      <point x="533" y="140" type="line"/>
+      <point x="518" y="140" type="line"/>
+      <point x="518" y="155" type="line"/>
+      <point x="503" y="155" type="line"/>
+      <point x="503" y="140" type="line"/>
+      <point x="488" y="140" type="line"/>
+      <point x="488" y="155" type="line"/>
+      <point x="473" y="155" type="line"/>
+      <point x="473" y="140" type="line"/>
+      <point x="458" y="140" type="line"/>
+      <point x="458" y="155" type="line"/>
+      <point x="443" y="155" type="line"/>
+      <point x="443" y="162" type="line"/>
+      <point x="428" y="162" type="line"/>
+      <point x="428" y="155" type="line"/>
+      <point x="413" y="155" type="line"/>
+      <point x="413" y="140" type="line"/>
+      <point x="398" y="140" type="line"/>
+      <point x="398" y="155" type="line"/>
+      <point x="384" y="155" type="line"/>
+      <point x="386" y="158"/>
+      <point x="387" y="162" type="qcurve"/>
+      <point x="351" y="162" type="line"/>
+      <point x="353" y="166"/>
+      <point x="354" y="170" type="qcurve"/>
+      <point x="363" y="170" type="line"/>
+      <point x="363" y="185" type="line"/>
+      <point x="378" y="185" type="line"/>
+      <point x="378" y="170" type="line"/>
+      <point x="393" y="170" type="line"/>
+      <point x="393" y="162" type="line"/>
+      <point x="408" y="162" type="line"/>
+      <point x="408" y="170" type="line"/>
+      <point x="423" y="170" type="line"/>
+      <point x="423" y="185" type="line"/>
+      <point x="438" y="185" type="line"/>
+      <point x="438" y="170" type="line"/>
+      <point x="453" y="170" type="line"/>
+      <point x="453" y="162" type="line"/>
+      <point x="468" y="162" type="line"/>
+      <point x="468" y="170" type="line"/>
+      <point x="483" y="170" type="line"/>
+      <point x="483" y="185" type="line"/>
+      <point x="468" y="185" type="line"/>
+      <point x="468" y="200" type="line"/>
+      <point x="483" y="200" type="line"/>
+      <point x="483" y="215" type="line"/>
+      <point x="468" y="215" type="line"/>
+      <point x="468" y="230" type="line"/>
+      <point x="483" y="230" type="line"/>
+      <point x="483" y="245" type="line"/>
+      <point x="468" y="245" type="line"/>
+      <point x="468" y="250" type="line"/>
+      <point x="456" y="250" type="line"/>
+      <point x="456" y="260" type="line"/>
+      <point x="471" y="260" type="line"/>
+      <point x="471" y="275" type="line"/>
+      <point x="486" y="275" type="line"/>
+      <point x="486" y="260" type="line"/>
+      <point x="501" y="260" type="line"/>
+      <point x="501" y="275" type="line"/>
+      <point x="486" y="275" type="line"/>
+      <point x="486" y="290" type="line"/>
+      <point x="501" y="290" type="line"/>
+      <point x="501" y="305" type="line"/>
+      <point x="516" y="305" type="line"/>
+      <point x="516" y="320" type="line"/>
+      <point x="531" y="320" type="line"/>
+      <point x="531" y="305" type="line"/>
+      <point x="546" y="305" type="line"/>
+      <point x="546" y="320" type="line"/>
+      <point x="561" y="320" type="line"/>
+      <point x="561" y="305" type="line"/>
+      <point x="576" y="305" type="line"/>
+      <point x="576" y="320" type="line"/>
+      <point x="591" y="320" type="line"/>
+      <point x="591" y="335" type="line"/>
+      <point x="576" y="335" type="line"/>
+      <point x="576" y="350" type="line"/>
+      <point x="561" y="350" type="line"/>
+      <point x="561" y="365" type="line"/>
+      <point x="546" y="365" type="line"/>
+      <point x="546" y="380" type="line"/>
+      <point x="531" y="380" type="line"/>
+      <point x="531" y="365" type="line"/>
+      <point x="516" y="365" type="line"/>
+      <point x="516" y="350" type="line"/>
+      <point x="501" y="350" type="line"/>
+      <point x="501" y="365" type="line"/>
+      <point x="486" y="365" type="line"/>
+      <point x="486" y="380" type="line"/>
+      <point x="471" y="380" type="line"/>
+      <point x="471" y="395" type="line"/>
+      <point x="486" y="395" type="line"/>
+      <point x="486" y="406" type="line"/>
+      <point x="471" y="406" type="line"/>
+      <point x="471" y="395" type="line"/>
+      <point x="456" y="395" type="line"/>
+      <point x="456" y="406" type="line"/>
+      <point x="455" y="406" type="line"/>
+      <point x="455" y="410" type="line"/>
+      <point x="441" y="410" type="line"/>
+      <point x="441" y="425" type="line"/>
+      <point x="456" y="425" type="line"/>
+      <point x="456" y="421" type="line"/>
+      <point x="471" y="421" type="line"/>
+      <point x="471" y="425" type="line"/>
+      <point x="486" y="425" type="line"/>
+      <point x="486" y="421" type="line"/>
+      <point x="501" y="421" type="line"/>
+      <point x="501" y="425" type="line"/>
+      <point x="486" y="425" type="line"/>
+      <point x="486" y="428" type="line"/>
+      <point x="471" y="428" type="line"/>
+      <point x="471" y="425" type="line"/>
+      <point x="456" y="425" type="line"/>
+      <point x="456" y="428" type="line"/>
+      <point x="441" y="428" type="line"/>
+      <point x="441" y="425" type="line"/>
+      <point x="426" y="425" type="line"/>
+      <point x="426" y="428" type="line"/>
+      <point x="425" y="428" type="line"/>
+      <point x="425" y="440" type="line"/>
+      <point x="411" y="440" type="line"/>
+      <point x="411" y="425" type="line"/>
+      <point x="396" y="425" type="line"/>
+      <point x="396" y="410" type="line"/>
+      <point x="381" y="410" type="line"/>
+      <point x="381" y="395" type="line"/>
+      <point x="366" y="395" type="line"/>
+      <point x="366" y="380" type="line"/>
+      <point x="351" y="380" type="line"/>
+      <point x="351" y="395" type="line"/>
+      <point x="336" y="395" type="line"/>
+      <point x="336" y="380" type="line"/>
+      <point x="321" y="380" type="line"/>
+      <point x="321" y="395" type="line"/>
+      <point x="306" y="395" type="line"/>
+      <point x="306" y="380" type="line"/>
+      <point x="291" y="380" type="line"/>
+      <point x="291" y="395" type="line"/>
+      <point x="276" y="395" type="line"/>
+      <point x="276" y="380" type="line"/>
+      <point x="261" y="380" type="line"/>
+      <point x="261" y="395" type="line"/>
+      <point x="246" y="395" type="line"/>
+      <point x="246" y="410" type="line"/>
+      <point x="231" y="410" type="line"/>
+      <point x="231" y="395" type="line"/>
+      <point x="216" y="395" type="line"/>
+      <point x="216" y="380" type="line"/>
+      <point x="201" y="380" type="line"/>
+      <point x="201" y="395" type="line"/>
+      <point x="186" y="395" type="line"/>
+      <point x="186" y="410" type="line"/>
+      <point x="201" y="410" type="line"/>
+      <point x="201" y="425" type="line"/>
+      <point x="186" y="425" type="line"/>
+      <point x="186" y="440" type="line"/>
+      <point x="171" y="440" type="line"/>
+      <point x="171" y="455" type="line"/>
+      <point x="163" y="455" type="line"/>
+      <point x="163" y="455" type="line"/>
+      <point x="178" y="455" type="line"/>
+      <point x="178" y="470" type="line"/>
+      <point x="193" y="470" type="line"/>
+      <point x="193" y="485" type="line"/>
+      <point x="208" y="485" type="line"/>
+      <point x="208" y="470" type="line"/>
+      <point x="223" y="470" type="line"/>
+      <point x="223" y="455" type="line"/>
+      <point x="238" y="455" type="line"/>
+      <point x="238" y="470" type="line"/>
+      <point x="223" y="470" type="line"/>
+      <point x="223" y="485" type="line"/>
+      <point x="208" y="485" type="line"/>
+      <point x="208" y="500" type="line"/>
+      <point x="223" y="500" type="line"/>
+      <point x="223" y="515" type="line"/>
+      <point x="208" y="515" type="line"/>
+      <point x="208" y="500" type="line"/>
+      <point x="193" y="500" type="line"/>
+      <point x="193" y="515" type="line"/>
+      <point x="178" y="515" type="line"/>
+      <point x="178" y="530" type="line"/>
+      <point x="193" y="530" type="line"/>
+      <point x="193" y="545" type="line"/>
+      <point x="208" y="545" type="line"/>
+      <point x="208" y="530" type="line"/>
+      <point x="223" y="530" type="line"/>
+      <point x="223" y="545" type="line"/>
+      <point x="238" y="545" type="line"/>
+      <point x="238" y="555" type="line"/>
+      <point x="238" y="555" type="line"/>
+      <point x="238" y="560" type="line"/>
+      <point x="253" y="560" type="line"/>
+      <point x="253" y="575" type="line"/>
+      <point x="268" y="575" type="line"/>
+      <point x="268" y="590" type="line"/>
+      <point x="283" y="590" type="line"/>
+      <point x="283" y="605" type="line"/>
+      <point x="298" y="605" type="line"/>
+      <point x="298" y="620" type="line"/>
+      <point x="313" y="620" type="line"/>
+      <point x="313" y="605" type="line"/>
+      <point x="328" y="605" type="line"/>
+      <point x="328" y="620" type="line"/>
+      <point x="343" y="620" type="line"/>
+      <point x="343" y="605" type="line"/>
+      <point x="358" y="605" type="line"/>
+      <point x="358" y="590" type="line"/>
+      <point x="373" y="590" type="line"/>
+      <point x="373" y="605" type="line"/>
+      <point x="388" y="605" type="line"/>
+      <point x="388" y="590" type="line"/>
+      <point x="403" y="590" type="line"/>
+      <point x="403" y="575" type="line"/>
+      <point x="418" y="575" type="line"/>
+      <point x="418" y="590" type="line"/>
+      <point x="433" y="590" type="line"/>
+      <point x="433" y="605" type="line"/>
+      <point x="448" y="605" type="line"/>
+      <point x="448" y="620" type="line"/>
+      <point x="463" y="620" type="line"/>
+      <point x="463" y="635" type="line"/>
+      <point x="448" y="635" type="line"/>
+      <point x="448" y="650" type="line"/>
+      <point x="433" y="650" type="line"/>
+      <point x="433" y="665" type="line"/>
+      <point x="418" y="665" type="line"/>
+      <point x="418" y="680" type="line"/>
+      <point x="403" y="680" type="line"/>
+      <point x="403" y="665" type="line"/>
+      <point x="388" y="665" type="line"/>
+      <point x="388" y="650" type="line"/>
+      <point x="373" y="650" type="line"/>
+      <point x="373" y="665" type="line"/>
+      <point x="358" y="665" type="line"/>
+      <point x="358" y="680" type="line"/>
+      <point x="343" y="680" type="line"/>
+      <point x="343" y="665" type="line"/>
+      <point x="328" y="665" type="line"/>
+      <point x="328" y="650" type="line"/>
+      <point x="313" y="650" type="line"/>
+      <point x="313" y="665" type="line"/>
+      <point x="298" y="665" type="line"/>
+      <point x="298" y="680" type="line"/>
+      <point x="283" y="680" type="line"/>
+      <point x="283" y="665" type="line"/>
+      <point x="268" y="665" type="line"/>
+      <point x="268" y="650" type="line"/>
+      <point x="253" y="650" type="line"/>
+      <point x="253" y="665" type="line"/>
+      <point x="238" y="665" type="line"/>
+      <point x="238" y="680" type="line"/>
+      <point x="223" y="680" type="line"/>
+      <point x="223" y="665" type="line"/>
+      <point x="208" y="665" type="line"/>
+      <point x="208" y="650" type="line"/>
+      <point x="193" y="650" type="line"/>
+      <point x="193" y="635" type="line"/>
+      <point x="178" y="635" type="line"/>
+      <point x="178" y="650" type="line"/>
+      <point x="163" y="650" type="line"/>
+      <point x="163" y="635" type="line"/>
+      <point x="148" y="635" type="line"/>
+      <point x="148" y="620" type="line"/>
+      <point x="163" y="620" type="line"/>
+      <point x="163" y="605" type="line"/>
+      <point x="148" y="605" type="line"/>
+      <point x="148" y="590" type="line"/>
+      <point x="163" y="590" type="line"/>
+      <point x="163" y="575" type="line"/>
+      <point x="148" y="575" type="line"/>
+      <point x="148" y="560" type="line"/>
+      <point x="133" y="560" type="line"/>
+      <point x="133" y="575" type="line"/>
+      <point x="118" y="575" type="line"/>
+      <point x="118" y="560" type="line"/>
+      <point x="133" y="560" type="line"/>
+      <point x="133" y="555" type="line"/>
+      <point x="133" y="555" type="line"/>
+      <point x="133" y="545" type="line"/>
+      <point x="118" y="545" type="line"/>
+      <point x="118" y="530" type="line"/>
+      <point x="103" y="530" type="line"/>
+      <point x="103" y="515" type="line"/>
+      <point x="118" y="515" type="line"/>
+      <point x="118" y="500" type="line"/>
+      <point x="133" y="500" type="line"/>
+      <point x="133" y="485" type="line"/>
+      <point x="118" y="485" type="line"/>
+      <point x="118" y="470" type="line"/>
+      <point x="133" y="470" type="line"/>
+      <point x="133" y="485" type="line"/>
+      <point x="148" y="485" type="line"/>
+      <point x="148" y="470" type="line"/>
+      <point x="163" y="470" type="line"/>
+      <point x="163" y="455" type="line"/>
+      <point x="148" y="455" type="line"/>
+      <point x="148" y="455" type="line"/>
+      <point x="156" y="455" type="line"/>
+      <point x="156" y="440" type="line"/>
+      <point x="141" y="440" type="line"/>
+      <point x="141" y="455" type="line"/>
+      <point x="133" y="455" type="line"/>
+      <point x="133" y="455" type="line"/>
+      <point x="118" y="455" type="line"/>
+      <point x="118" y="455" type="line"/>
+      <point x="126" y="455" type="line"/>
+      <point x="126" y="440" type="line"/>
+      <point x="141" y="440" type="line"/>
+      <point x="141" y="425" type="line"/>
+      <point x="126" y="425" type="line"/>
+      <point x="126" y="410" type="line"/>
+      <point x="141" y="410" type="line"/>
+      <point x="141" y="425" type="line"/>
+      <point x="156" y="425" type="line"/>
+      <point x="156" y="410" type="line"/>
+      <point x="171" y="410" type="line"/>
+      <point x="171" y="395" type="line"/>
+      <point x="156" y="395" type="line"/>
+      <point x="156" y="380" type="line"/>
+      <point x="171" y="380" type="line"/>
+      <point x="171" y="395" type="line"/>
+      <point x="186" y="395" type="line"/>
+      <point x="186" y="380" type="line"/>
+      <point x="201" y="380" type="line"/>
+      <point x="201" y="365" type="line"/>
+      <point x="186" y="365" type="line"/>
+      <point x="186" y="350" type="line"/>
+      <point x="201" y="350" type="line"/>
+      <point x="201" y="365" type="line"/>
+      <point x="216" y="365" type="line"/>
+      <point x="216" y="350" type="line"/>
+      <point x="231" y="350" type="line"/>
+      <point x="231" y="335" type="line"/>
+      <point x="216" y="335" type="line"/>
+      <point x="216" y="320" type="line"/>
+      <point x="201" y="320" type="line"/>
+      <point x="201" y="335" type="line"/>
+      <point x="186" y="335" type="line"/>
+      <point x="186" y="320" type="line"/>
+      <point x="201" y="320" type="line"/>
+      <point x="201" y="305" type="line"/>
+      <point x="186" y="305" type="line"/>
+      <point x="186" y="290" type="line"/>
+      <point x="201" y="290" type="line"/>
+      <point x="201" y="305" type="line"/>
+      <point x="216" y="305" type="line"/>
+      <point x="216" y="290" type="line"/>
+      <point x="231" y="290" type="line"/>
+      <point x="231" y="305" type="line"/>
+      <point x="216" y="305" type="line"/>
+      <point x="216" y="320" type="line"/>
+      <point x="231" y="320" type="line"/>
+      <point x="231" y="335" type="line"/>
+      <point x="246" y="335" type="line"/>
+      <point x="246" y="320" type="line"/>
+      <point x="261" y="320" type="line"/>
+      <point x="261" y="305" type="line"/>
+      <point x="246" y="305" type="line"/>
+      <point x="246" y="292" type="line"/>
+      <point x="223" y="287"/>
+      <point x="208" y="279" type="qcurve" smooth="yes"/>
+      <point x="204" y="277"/>
+      <point x="201" y="275" type="qcurve"/>
+      <point x="186" y="275" type="line"/>
+      <point x="186" y="260" type="line"/>
+      <point x="183" y="255"/>
+      <point x="180" y="250" type="qcurve"/>
+      <point x="161" y="250" type="line"/>
+      <point x="154" y="234"/>
+      <point x="153" y="213" type="qcurve"/>
+      <point x="153" y="215" type="line"/>
+      <point x="138" y="215" type="line"/>
+      <point x="138" y="200" type="line"/>
+      <point x="153" y="200" type="line"/>
+      <point x="153" y="179"/>
+      <point x="159" y="162" type="qcurve"/>
+      <point x="194" y="162" type="line"/>
+      <point x="196" y="156"/>
+      <point x="199" y="151" type="qcurve"/>
+      <point x="201" y="147"/>
+      <point x="203" y="144" type="qcurve"/>
+      <point x="203" y="140" type="line"/>
+      <point x="206" y="140" type="line"/>
+      <point x="216" y="127"/>
+      <point x="232" y="119" type="qcurve"/>
+      <point x="233" y="119" type="line"/>
+      <point x="233" y="110" type="line"/>
+      <point x="248" y="110" type="line"/>
+      <point x="248" y="113" type="line"/>
+      <point x="255" y="111"/>
+      <point x="263" y="110" type="qcurve"/>
+      <point x="265" y="110" type="line"/>
+      <point x="277" y="108"/>
+      <point x="292" y="108" type="qcurve" smooth="yes"/>
+      <point x="309" y="108"/>
+      <point x="323" y="111" type="qcurve"/>
+      <point x="323" y="110" type="line"/>
+      <point x="338" y="110" type="line"/>
+      <point x="338" y="114" type="line"/>
+      <point x="346" y="117"/>
+      <point x="353" y="120" type="qcurve"/>
+      <point x="353" y="110" type="line"/>
+      <point x="368" y="110" type="line"/>
+      <point x="368" y="125" type="line"/>
+      <point x="360" y="125" type="line"/>
+      <point x="367" y="130"/>
+      <point x="372" y="136" type="qcurve"/>
+      <point x="378" y="144"/>
+      <point x="383" y="153" type="qcurve"/>
+      <point x="383" y="140" type="line"/>
+      <point x="398" y="140" type="line"/>
+      <point x="398" y="125" type="line"/>
+      <point x="383" y="125" type="line"/>
+      <point x="383" y="110" type="line"/>
+      <point x="398" y="110" type="line"/>
+      <point x="398" y="125" type="line"/>
+      <point x="413" y="125" type="line"/>
+      <point x="413" y="110" type="line"/>
+      <point x="428" y="110" type="line"/>
+      <point x="428" y="95" type="line"/>
+      <point x="413" y="95" type="line"/>
+      <point x="413" y="80" type="line"/>
+      <point x="398" y="80" type="line"/>
+      <point x="398" y="95" type="line"/>
+      <point x="383" y="95" type="line"/>
+      <point x="383" y="80" type="line"/>
+      <point x="398" y="80" type="line"/>
+      <point x="398" y="65" type="line"/>
+      <point x="383" y="65" type="line"/>
+      <point x="383" y="50" type="line"/>
+      <point x="398" y="50" type="line"/>
+      <point x="398" y="65" type="line"/>
+      <point x="413" y="65" type="line"/>
+      <point x="413" y="50" type="line"/>
+    </contour>
+    <contour>
+      <point x="366" y="365" type="line"/>
+      <point x="366" y="380" type="line"/>
+      <point x="381" y="380" type="line"/>
+      <point x="381" y="395" type="line"/>
+      <point x="396" y="395" type="line"/>
+      <point x="396" y="410" type="line"/>
+      <point x="411" y="410" type="line"/>
+      <point x="411" y="425" type="line"/>
+      <point x="426" y="425" type="line"/>
+      <point x="426" y="410" type="line"/>
+      <point x="441" y="410" type="line"/>
+      <point x="441" y="395" type="line"/>
+      <point x="426" y="395" type="line"/>
+      <point x="426" y="380" type="line"/>
+      <point x="441" y="380" type="line"/>
+      <point x="441" y="365" type="line"/>
+      <point x="456" y="365" type="line"/>
+      <point x="456" y="380" type="line"/>
+      <point x="471" y="380" type="line"/>
+      <point x="471" y="365" type="line"/>
+      <point x="486" y="365" type="line"/>
+      <point x="486" y="350" type="line"/>
+      <point x="501" y="350" type="line"/>
+      <point x="501" y="335" type="line"/>
+      <point x="486" y="335" type="line"/>
+      <point x="486" y="320" type="line"/>
+      <point x="501" y="320" type="line"/>
+      <point x="501" y="305" type="line"/>
+      <point x="486" y="305" type="line"/>
+      <point x="486" y="290" type="line"/>
+      <point x="471" y="290" type="line"/>
+      <point x="471" y="275" type="line"/>
+      <point x="456" y="275" type="line"/>
+      <point x="456" y="260" type="line"/>
+      <point x="441" y="260" type="line"/>
+      <point x="441" y="250" type="line"/>
+      <point x="453" y="250" type="line"/>
+      <point x="453" y="245" type="line"/>
+      <point x="468" y="245" type="line"/>
+      <point x="468" y="230" type="line"/>
+      <point x="453" y="230" type="line"/>
+      <point x="453" y="215" type="line"/>
+      <point x="468" y="215" type="line"/>
+      <point x="468" y="200" type="line"/>
+      <point x="453" y="200" type="line"/>
+      <point x="453" y="185" type="line"/>
+      <point x="468" y="185" type="line"/>
+      <point x="468" y="170" type="line"/>
+      <point x="453" y="170" type="line"/>
+      <point x="453" y="185" type="line"/>
+      <point x="438" y="185" type="line"/>
+      <point x="438" y="200" type="line"/>
+      <point x="423" y="200" type="line"/>
+      <point x="423" y="185" type="line"/>
+      <point x="408" y="185" type="line"/>
+      <point x="408" y="170" type="line"/>
+      <point x="393" y="170" type="line"/>
+      <point x="393" y="185" type="line"/>
+      <point x="408" y="185" type="line"/>
+      <point x="408" y="200" type="line"/>
+      <point x="423" y="200" type="line"/>
+      <point x="423" y="215" type="line"/>
+      <point x="408" y="215" type="line"/>
+      <point x="408" y="230" type="line"/>
+      <point x="423" y="230" type="line"/>
+      <point x="423" y="245" type="line"/>
+      <point x="438" y="245" type="line"/>
+      <point x="438" y="250" type="line"/>
+      <point x="426" y="250" type="line"/>
+      <point x="426" y="260" type="line"/>
+      <point x="411" y="260" type="line"/>
+      <point x="411" y="275" type="line"/>
+      <point x="426" y="275" type="line"/>
+      <point x="426" y="290" type="line"/>
+      <point x="411" y="290" type="line"/>
+      <point x="411" y="305" type="line"/>
+      <point x="396" y="305" type="line"/>
+      <point x="396" y="320" type="line"/>
+      <point x="381" y="320" type="line"/>
+      <point x="381" y="335" type="line"/>
+      <point x="366" y="335" type="line"/>
+      <point x="366" y="350" type="line"/>
+      <point x="351" y="350" type="line"/>
+      <point x="351" y="365" type="line"/>
+    </contour>
+    <contour>
+      <point x="178" y="470" type="line"/>
+      <point x="163" y="470" type="line"/>
+      <point x="163" y="485" type="line"/>
+      <point x="148" y="485" type="line"/>
+      <point x="148" y="500" type="line"/>
+      <point x="133" y="500" type="line"/>
+      <point x="133" y="515" type="line"/>
+      <point x="118" y="515" type="line"/>
+      <point x="118" y="530" type="line"/>
+      <point x="133" y="530" type="line"/>
+      <point x="133" y="545" type="line"/>
+      <point x="148" y="545" type="line"/>
+      <point x="148" y="555" type="line"/>
+      <point x="148" y="555" type="line"/>
+      <point x="148" y="560" type="line"/>
+      <point x="163" y="560" type="line"/>
+      <point x="163" y="575" type="line"/>
+      <point x="178" y="575" type="line"/>
+      <point x="178" y="590" type="line"/>
+      <point x="163" y="590" type="line"/>
+      <point x="163" y="605" type="line"/>
+      <point x="178" y="605" type="line"/>
+      <point x="178" y="620" type="line"/>
+      <point x="163" y="620" type="line"/>
+      <point x="163" y="635" type="line"/>
+      <point x="178" y="635" type="line"/>
+      <point x="178" y="620" type="line"/>
+      <point x="193" y="620" type="line"/>
+      <point x="193" y="635" type="line"/>
+      <point x="208" y="635" type="line"/>
+      <point x="208" y="650" type="line"/>
+      <point x="223" y="650" type="line"/>
+      <point x="223" y="665" type="line"/>
+      <point x="238" y="665" type="line"/>
+      <point x="238" y="650" type="line"/>
+      <point x="253" y="650" type="line"/>
+      <point x="253" y="635" type="line"/>
+      <point x="268" y="635" type="line"/>
+      <point x="268" y="650" type="line"/>
+      <point x="283" y="650" type="line"/>
+      <point x="283" y="665" type="line"/>
+      <point x="298" y="665" type="line"/>
+      <point x="298" y="650" type="line"/>
+      <point x="313" y="650" type="line"/>
+      <point x="313" y="635" type="line"/>
+      <point x="298" y="635" type="line"/>
+      <point x="298" y="620" type="line"/>
+      <point x="283" y="620" type="line"/>
+      <point x="283" y="605" type="line"/>
+      <point x="268" y="605" type="line"/>
+      <point x="268" y="590" type="line"/>
+      <point x="253" y="590" type="line"/>
+      <point x="253" y="575" type="line"/>
+      <point x="238" y="575" type="line"/>
+      <point x="238" y="560" type="line"/>
+      <point x="223" y="560" type="line"/>
+      <point x="223" y="555" type="line"/>
+      <point x="223" y="555" type="line"/>
+      <point x="223" y="545" type="line"/>
+      <point x="208" y="545" type="line"/>
+      <point x="208" y="555" type="line"/>
+      <point x="208" y="555" type="line"/>
+      <point x="208" y="560" type="line"/>
+      <point x="193" y="560" type="line"/>
+      <point x="193" y="555" type="line"/>
+      <point x="193" y="555" type="line"/>
+      <point x="193" y="545" type="line"/>
+      <point x="178" y="545" type="line"/>
+      <point x="178" y="530" type="line"/>
+      <point x="163" y="530" type="line"/>
+      <point x="163" y="515" type="line"/>
+      <point x="178" y="515" type="line"/>
+      <point x="178" y="500" type="line"/>
+      <point x="193" y="500" type="line"/>
+      <point x="193" y="485" type="line"/>
+      <point x="178" y="485" type="line"/>
+    </contour>
+    <contour>
+      <point x="443" y="110" type="line"/>
+      <point x="428" y="110" type="line"/>
+      <point x="428" y="125" type="line"/>
+      <point x="413" y="125" type="line"/>
+      <point x="413" y="140" type="line"/>
+      <point x="428" y="140" type="line"/>
+      <point x="428" y="155" type="line"/>
+      <point x="443" y="155" type="line"/>
+      <point x="443" y="140" type="line"/>
+      <point x="458" y="140" type="line"/>
+      <point x="458" y="125" type="line"/>
+      <point x="473" y="125" type="line"/>
+      <point x="473" y="140" type="line"/>
+      <point x="488" y="140" type="line"/>
+      <point x="488" y="125" type="line"/>
+      <point x="503" y="125" type="line"/>
+      <point x="503" y="140" type="line"/>
+      <point x="518" y="140" type="line"/>
+      <point x="518" y="125" type="line"/>
+      <point x="533" y="125" type="line"/>
+      <point x="533" y="110" type="line"/>
+      <point x="548" y="110" type="line"/>
+      <point x="548" y="95" type="line"/>
+      <point x="563" y="95" type="line"/>
+      <point x="563" y="80" type="line"/>
+      <point x="578" y="80" type="line"/>
+      <point x="578" y="95" type="line"/>
+      <point x="593" y="95" type="line"/>
+      <point x="593" y="80" type="line"/>
+      <point x="608" y="80" type="line"/>
+      <point x="608" y="65" type="line"/>
+      <point x="623" y="65" type="line"/>
+      <point x="623" y="50" type="line"/>
+      <point x="608" y="50" type="line"/>
+      <point x="608" y="35" type="line"/>
+      <point x="623" y="35" type="line"/>
+      <point x="623" y="20" type="line"/>
+      <point x="608" y="20" type="line"/>
+      <point x="608" y="35" type="line"/>
+      <point x="593" y="35" type="line"/>
+      <point x="593" y="20" type="line"/>
+      <point x="578" y="20" type="line"/>
+      <point x="578" y="35" type="line"/>
+      <point x="563" y="35" type="line"/>
+      <point x="563" y="50" type="line"/>
+      <point x="548" y="50" type="line"/>
+      <point x="548" y="35" type="line"/>
+      <point x="533" y="35" type="line"/>
+      <point x="533" y="20" type="line"/>
+      <point x="518" y="20" type="line"/>
+      <point x="518" y="35" type="line"/>
+      <point x="503" y="35" type="line"/>
+      <point x="503" y="50" type="line"/>
+      <point x="488" y="50" type="line"/>
+      <point x="488" y="65" type="line"/>
+      <point x="473" y="65" type="line"/>
+      <point x="473" y="80" type="line"/>
+      <point x="458" y="80" type="line"/>
+      <point x="458" y="95" type="line"/>
+      <point x="443" y="95" type="line"/>
+    </contour>
+    <contour>
+      <point x="411" y="380" type="line"/>
+      <point x="411" y="365" type="line"/>
+      <point x="396" y="365" type="line"/>
+      <point x="396" y="350" type="line"/>
+      <point x="411" y="350" type="line"/>
+      <point x="411" y="335" type="line"/>
+      <point x="396" y="335" type="line"/>
+      <point x="396" y="320" type="line"/>
+      <point x="411" y="320" type="line"/>
+      <point x="411" y="305" type="line"/>
+      <point x="426" y="305" type="line"/>
+      <point x="426" y="290" type="line"/>
+      <point x="441" y="290" type="line"/>
+      <point x="441" y="275" type="line"/>
+      <point x="426" y="275" type="line"/>
+      <point x="426" y="260" type="line"/>
+      <point x="441" y="260" type="line"/>
+      <point x="441" y="275" type="line"/>
+      <point x="456" y="275" type="line"/>
+      <point x="456" y="290" type="line"/>
+      <point x="471" y="290" type="line"/>
+      <point x="471" y="305" type="line"/>
+      <point x="486" y="305" type="line"/>
+      <point x="486" y="320" type="line"/>
+      <point x="471" y="320" type="line"/>
+      <point x="471" y="335" type="line"/>
+      <point x="486" y="335" type="line"/>
+      <point x="486" y="350" type="line"/>
+      <point x="471" y="350" type="line"/>
+      <point x="471" y="365" type="line"/>
+      <point x="456" y="365" type="line"/>
+      <point x="456" y="350" type="line"/>
+      <point x="441" y="350" type="line"/>
+      <point x="441" y="365" type="line"/>
+      <point x="426" y="365" type="line"/>
+      <point x="426" y="380" type="line"/>
+    </contour>
+    <contour>
+      <point x="306" y="305" type="line"/>
+      <point x="306" y="298" type="line"/>
+      <point x="298" y="298"/>
+      <point x="291" y="297" type="qcurve"/>
+      <point x="291" y="305" type="line"/>
+      <point x="276" y="305" type="line"/>
+      <point x="276" y="296" type="line"/>
+      <point x="268" y="295"/>
+      <point x="261" y="294" type="qcurve"/>
+      <point x="261" y="305" type="line"/>
+      <point x="276" y="305" type="line"/>
+      <point x="276" y="320" type="line"/>
+      <point x="261" y="320" type="line"/>
+      <point x="261" y="335" type="line"/>
+      <point x="246" y="335" type="line"/>
+      <point x="246" y="350" type="line"/>
+      <point x="231" y="350" type="line"/>
+      <point x="231" y="365" type="line"/>
+      <point x="216" y="365" type="line"/>
+      <point x="216" y="380" type="line"/>
+      <point x="231" y="380" type="line"/>
+      <point x="231" y="395" type="line"/>
+      <point x="246" y="395" type="line"/>
+      <point x="246" y="380" type="line"/>
+      <point x="261" y="380" type="line"/>
+      <point x="261" y="365" type="line"/>
+      <point x="276" y="365" type="line"/>
+      <point x="276" y="380" type="line"/>
+      <point x="291" y="380" type="line"/>
+      <point x="291" y="365" type="line"/>
+      <point x="306" y="365" type="line"/>
+      <point x="306" y="380" type="line"/>
+      <point x="321" y="380" type="line"/>
+      <point x="321" y="365" type="line"/>
+      <point x="306" y="365" type="line"/>
+      <point x="306" y="350" type="line"/>
+      <point x="291" y="350" type="line"/>
+      <point x="291" y="335" type="line"/>
+      <point x="306" y="335" type="line"/>
+      <point x="306" y="320" type="line"/>
+      <point x="321" y="320" type="line"/>
+      <point x="321" y="305" type="line"/>
+    </contour>
+    <contour>
+      <point x="223" y="590" type="line"/>
+      <point x="223" y="575" type="line"/>
+      <point x="238" y="575" type="line"/>
+      <point x="238" y="590" type="line"/>
+      <point x="253" y="590" type="line"/>
+      <point x="253" y="605" type="line"/>
+      <point x="268" y="605" type="line"/>
+      <point x="268" y="620" type="line"/>
+      <point x="283" y="620" type="line"/>
+      <point x="283" y="635" type="line"/>
+      <point x="298" y="635" type="line"/>
+      <point x="298" y="650" type="line"/>
+      <point x="283" y="650" type="line"/>
+      <point x="283" y="635" type="line"/>
+      <point x="268" y="635" type="line"/>
+      <point x="268" y="620" type="line"/>
+      <point x="253" y="620" type="line"/>
+      <point x="253" y="635" type="line"/>
+      <point x="238" y="635" type="line"/>
+      <point x="238" y="650" type="line"/>
+      <point x="223" y="650" type="line"/>
+      <point x="223" y="635" type="line"/>
+      <point x="208" y="635" type="line"/>
+      <point x="208" y="620" type="line"/>
+      <point x="193" y="620" type="line"/>
+      <point x="193" y="605" type="line"/>
+      <point x="178" y="605" type="line"/>
+      <point x="178" y="590" type="line"/>
+      <point x="193" y="590" type="line"/>
+      <point x="193" y="605" type="line"/>
+      <point x="208" y="605" type="line"/>
+      <point x="208" y="590" type="line"/>
+    </contour>
+    <contour>
+      <point x="426" y="335" type="line"/>
+      <point x="426" y="350" type="line"/>
+      <point x="441" y="350" type="line"/>
+      <point x="441" y="335" type="line"/>
+      <point x="456" y="335" type="line"/>
+      <point x="456" y="350" type="line"/>
+      <point x="471" y="350" type="line"/>
+      <point x="471" y="335" type="line"/>
+      <point x="456" y="335" type="line"/>
+      <point x="456" y="320" type="line"/>
+      <point x="471" y="320" type="line"/>
+      <point x="471" y="305" type="line"/>
+      <point x="456" y="305" type="line"/>
+      <point x="456" y="290" type="line"/>
+      <point x="441" y="290" type="line"/>
+      <point x="441" y="305" type="line"/>
+      <point x="426" y="305" type="line"/>
+      <point x="426" y="320" type="line"/>
+      <point x="411" y="320" type="line"/>
+      <point x="411" y="335" type="line"/>
+    </contour>
+    <contour>
+      <point x="508" y="470" type="line"/>
+      <point x="523" y="470" type="line"/>
+      <point x="523" y="455" type="line"/>
+      <point x="538" y="455" type="line"/>
+      <point x="538" y="470" type="line"/>
+      <point x="553" y="470" type="line"/>
+      <point x="553" y="485" type="line"/>
+      <point x="538" y="485" type="line"/>
+      <point x="538" y="500" type="line"/>
+      <point x="523" y="500" type="line"/>
+      <point x="523" y="485" type="line"/>
+      <point x="508" y="485" type="line"/>
+    </contour>
+    <contour>
+      <point x="458" y="80" type="line"/>
+      <point x="458" y="65" type="line"/>
+      <point x="443" y="65" type="line"/>
+      <point x="443" y="50" type="line"/>
+      <point x="428" y="50" type="line"/>
+      <point x="428" y="65" type="line"/>
+      <point x="413" y="65" type="line"/>
+      <point x="413" y="80" type="line"/>
+      <point x="428" y="80" type="line"/>
+      <point x="428" y="95" type="line"/>
+      <point x="443" y="95" type="line"/>
+      <point x="443" y="80" type="line"/>
+    </contour>
+    <contour>
+      <point x="548" y="80" type="line"/>
+      <point x="548" y="65" type="line"/>
+      <point x="533" y="65" type="line"/>
+      <point x="533" y="50" type="line"/>
+      <point x="548" y="50" type="line"/>
+      <point x="548" y="65" type="line"/>
+      <point x="563" y="65" type="line"/>
+      <point x="563" y="50" type="line"/>
+      <point x="578" y="50" type="line"/>
+      <point x="578" y="65" type="line"/>
+      <point x="593" y="65" type="line"/>
+      <point x="593" y="50" type="line"/>
+      <point x="608" y="50" type="line"/>
+      <point x="608" y="65" type="line"/>
+      <point x="593" y="65" type="line"/>
+      <point x="593" y="80" type="line"/>
+      <point x="578" y="80" type="line"/>
+      <point x="578" y="65" type="line"/>
+      <point x="563" y="65" type="line"/>
+      <point x="563" y="80" type="line"/>
+    </contour>
+    <contour>
+      <point x="336" y="320" type="line"/>
+      <point x="321" y="320" type="line"/>
+      <point x="321" y="335" type="line"/>
+      <point x="306" y="335" type="line"/>
+      <point x="306" y="350" type="line"/>
+      <point x="321" y="350" type="line"/>
+      <point x="321" y="365" type="line"/>
+      <point x="336" y="365" type="line"/>
+      <point x="336" y="350" type="line"/>
+      <point x="351" y="350" type="line"/>
+      <point x="351" y="335" type="line"/>
+      <point x="336" y="335" type="line"/>
+    </contour>
+    <contour>
+      <point x="531" y="335" type="line"/>
+      <point x="516" y="335" type="line"/>
+      <point x="516" y="350" type="line"/>
+      <point x="531" y="350" type="line"/>
+      <point x="531" y="365" type="line"/>
+      <point x="546" y="365" type="line"/>
+      <point x="546" y="350" type="line"/>
+      <point x="561" y="350" type="line"/>
+      <point x="561" y="335" type="line"/>
+      <point x="546" y="335" type="line"/>
+      <point x="546" y="320" type="line"/>
+      <point x="531" y="320" type="line"/>
+    </contour>
+    <contour>
+      <point x="478" y="470" type="line"/>
+      <point x="493" y="470" type="line"/>
+      <point x="493" y="485" type="line"/>
+      <point x="478" y="485" type="line"/>
+      <point x="478" y="500" type="line"/>
+      <point x="463" y="500" type="line"/>
+      <point x="463" y="485" type="line"/>
+      <point x="448" y="485" type="line"/>
+      <point x="448" y="470" type="line"/>
+      <point x="463" y="470" type="line"/>
+      <point x="463" y="455" type="line"/>
+      <point x="478" y="455" type="line"/>
+    </contour>
+    <contour>
+      <point x="393" y="230" type="line"/>
+      <point x="393" y="215" type="line"/>
+      <point x="378" y="215" type="line"/>
+      <point x="378" y="200" type="line"/>
+      <point x="363" y="200" type="line"/>
+      <point x="363" y="215" type="line"/>
+      <point x="360" y="215" type="line"/>
+      <point x="360" y="230" type="line"/>
+      <point x="363" y="230" type="line"/>
+      <point x="363" y="245" type="line"/>
+      <point x="378" y="245" type="line"/>
+      <point x="378" y="230" type="line"/>
+    </contour>
+    <contour>
+      <point x="488" y="95" type="line"/>
+      <point x="473" y="95" type="line"/>
+      <point x="473" y="80" type="line"/>
+      <point x="488" y="80" type="line"/>
+    </contour>
+    <contour>
+      <point x="488" y="95" type="line"/>
+      <point x="503" y="95" type="line"/>
+      <point x="503" y="110" type="line"/>
+      <point x="488" y="110" type="line"/>
+    </contour>
+    <contour>
+      <point x="488" y="110" type="line"/>
+      <point x="488" y="125" type="line"/>
+      <point x="473" y="125" type="line"/>
+      <point x="473" y="110" type="line"/>
+    </contour>
+    <contour>
+      <point x="518" y="80" type="line"/>
+      <point x="518" y="95" type="line"/>
+      <point x="503" y="95" type="line"/>
+      <point x="503" y="80" type="line"/>
+    </contour>
+    <contour>
+      <point x="518" y="80" type="line"/>
+      <point x="518" y="65" type="line"/>
+      <point x="533" y="65" type="line"/>
+      <point x="533" y="80" type="line"/>
+    </contour>
+    <contour>
+      <point x="548" y="80" type="line"/>
+      <point x="548" y="95" type="line"/>
+      <point x="533" y="95" type="line"/>
+      <point x="533" y="80" type="line"/>
+    </contour>
+    <contour>
+      <point x="503" y="110" type="line"/>
+      <point x="518" y="110" type="line"/>
+      <point x="518" y="125" type="line"/>
+      <point x="503" y="125" type="line"/>
+    </contour>
+    <contour>
+      <point x="518" y="65" type="line"/>
+      <point x="503" y="65" type="line"/>
+      <point x="503" y="50" type="line"/>
+      <point x="518" y="50" type="line"/>
+    </contour>
+    <contour>
+      <point x="443" y="110" type="line"/>
+      <point x="458" y="110" type="line"/>
+      <point x="458" y="125" type="line"/>
+      <point x="443" y="125" type="line"/>
+    </contour>
+    <contour>
+      <point x="378" y="200" type="line"/>
+      <point x="393" y="200" type="line"/>
+      <point x="393" y="185" type="line"/>
+      <point x="378" y="185" type="line"/>
+    </contour>
+    <contour>
+      <point x="393" y="215" type="line"/>
+      <point x="408" y="215" type="line"/>
+      <point x="408" y="200" type="line"/>
+      <point x="393" y="200" type="line"/>
+    </contour>
+    <contour>
+      <point x="393" y="245" type="line"/>
+      <point x="408" y="245" type="line"/>
+      <point x="408" y="230" type="line"/>
+      <point x="393" y="230" type="line"/>
+    </contour>
+    <contour>
+      <point x="396" y="260" type="line"/>
+      <point x="411" y="260" type="line"/>
+      <point x="411" y="250" type="line"/>
+      <point x="423" y="250" type="line"/>
+      <point x="423" y="245" type="line"/>
+      <point x="408" y="245" type="line"/>
+      <point x="408" y="250" type="line"/>
+      <point x="396" y="250" type="line"/>
+    </contour>
+    <contour>
+      <point x="396" y="275" type="line"/>
+      <point x="396" y="260" type="line"/>
+      <point x="381" y="260" type="line"/>
+      <point x="381" y="275" type="line"/>
+    </contour>
+    <contour>
+      <point x="396" y="290" type="line"/>
+      <point x="411" y="290" type="line"/>
+      <point x="411" y="275" type="line"/>
+      <point x="396" y="275" type="line"/>
+    </contour>
+    <contour>
+      <point x="396" y="305" type="line"/>
+      <point x="396" y="290" type="line"/>
+      <point x="381" y="290" type="line"/>
+      <point x="381" y="305" type="line"/>
+    </contour>
+    <contour>
+      <point x="381" y="320" type="line"/>
+      <point x="381" y="305" type="line"/>
+      <point x="366" y="305" type="line"/>
+      <point x="366" y="320" type="line"/>
+    </contour>
+    <contour>
+      <point x="351" y="320" type="line"/>
+      <point x="351" y="335" type="line"/>
+      <point x="366" y="335" type="line"/>
+      <point x="366" y="320" type="line"/>
+    </contour>
+    <contour>
+      <point x="336" y="305" type="line"/>
+      <point x="336" y="320" type="line"/>
+      <point x="351" y="320" type="line"/>
+      <point x="351" y="305" type="line"/>
+    </contour>
+    <contour>
+      <point x="291" y="320" type="line"/>
+      <point x="291" y="335" type="line"/>
+      <point x="276" y="335" type="line"/>
+      <point x="276" y="320" type="line"/>
+    </contour>
+    <contour>
+      <point x="291" y="320" type="line"/>
+      <point x="291" y="305" type="line"/>
+      <point x="306" y="305" type="line"/>
+      <point x="306" y="320" type="line"/>
+    </contour>
+    <contour>
+      <point x="291" y="350" type="line"/>
+      <point x="291" y="365" type="line"/>
+      <point x="276" y="365" type="line"/>
+      <point x="276" y="350" type="line"/>
+    </contour>
+    <contour>
+      <point x="261" y="365" type="line"/>
+      <point x="246" y="365" type="line"/>
+      <point x="246" y="350" type="line"/>
+      <point x="261" y="350" type="line"/>
+    </contour>
+    <contour>
+      <point x="351" y="365" type="line"/>
+      <point x="336" y="365" type="line"/>
+      <point x="336" y="380" type="line"/>
+      <point x="351" y="380" type="line"/>
+    </contour>
+    <contour>
+      <point x="381" y="365" type="line"/>
+      <point x="366" y="365" type="line"/>
+      <point x="366" y="350" type="line"/>
+      <point x="381" y="350" type="line"/>
+    </contour>
+    <contour>
+      <point x="396" y="365" type="line"/>
+      <point x="396" y="380" type="line"/>
+      <point x="381" y="380" type="line"/>
+      <point x="381" y="365" type="line"/>
+    </contour>
+    <contour>
+      <point x="411" y="395" type="line"/>
+      <point x="426" y="395" type="line"/>
+      <point x="426" y="410" type="line"/>
+      <point x="411" y="410" type="line"/>
+    </contour>
+    <contour>
+      <point x="411" y="380" type="line"/>
+      <point x="411" y="395" type="line"/>
+      <point x="396" y="395" type="line"/>
+      <point x="396" y="380" type="line"/>
+    </contour>
+    <contour>
+      <point x="426" y="350" type="line"/>
+      <point x="411" y="350" type="line"/>
+      <point x="411" y="365" type="line"/>
+      <point x="426" y="365" type="line"/>
+    </contour>
+    <contour>
+      <point x="441" y="320" type="line"/>
+      <point x="441" y="305" type="line"/>
+      <point x="456" y="305" type="line"/>
+      <point x="456" y="320" type="line"/>
+    </contour>
+    <contour>
+      <point x="441" y="320" type="line"/>
+      <point x="441" y="335" type="line"/>
+      <point x="426" y="335" type="line"/>
+      <point x="426" y="320" type="line"/>
+    </contour>
+    <contour>
+      <point x="438" y="230" type="line"/>
+      <point x="453" y="230" type="line"/>
+      <point x="453" y="245" type="line"/>
+      <point x="438" y="245" type="line"/>
+    </contour>
+    <contour>
+      <point x="438" y="215" type="line"/>
+      <point x="438" y="200" type="line"/>
+      <point x="453" y="200" type="line"/>
+      <point x="453" y="215" type="line"/>
+    </contour>
+    <contour>
+      <point x="438" y="230" type="line"/>
+      <point x="423" y="230" type="line"/>
+      <point x="423" y="215" type="line"/>
+      <point x="438" y="215" type="line"/>
+    </contour>
+    <contour>
+      <point x="531" y="335" type="line"/>
+      <point x="546" y="335" type="line"/>
+      <point x="546" y="350" type="line"/>
+      <point x="531" y="350" type="line"/>
+    </contour>
+    <contour>
+      <point x="171" y="425" type="line"/>
+      <point x="186" y="425" type="line"/>
+      <point x="186" y="410" type="line"/>
+      <point x="171" y="410" type="line"/>
+    </contour>
+    <contour>
+      <point x="171" y="425" type="line"/>
+      <point x="156" y="425" type="line"/>
+      <point x="156" y="440" type="line"/>
+      <point x="171" y="440" type="line"/>
+    </contour>
+    <contour>
+      <point x="163" y="515" type="line"/>
+      <point x="148" y="515" type="line"/>
+      <point x="148" y="500" type="line"/>
+      <point x="163" y="500" type="line"/>
+    </contour>
+    <contour>
+      <point x="223" y="575" type="line"/>
+      <point x="208" y="575" type="line"/>
+      <point x="208" y="560" type="line"/>
+      <point x="223" y="560" type="line"/>
+    </contour>
+    <contour>
+      <point x="238" y="605" type="line"/>
+      <point x="238" y="620" type="line"/>
+      <point x="253" y="620" type="line"/>
+      <point x="253" y="605" type="line"/>
+    </contour>
+    <contour>
+      <point x="223" y="605" type="line"/>
+      <point x="238" y="605" type="line"/>
+      <point x="238" y="590" type="line"/>
+      <point x="223" y="590" type="line"/>
+    </contour>
+    <contour>
+      <point x="223" y="620" type="line"/>
+      <point x="223" y="605" type="line"/>
+      <point x="208" y="605" type="line"/>
+      <point x="208" y="620" type="line"/>
+    </contour>
+    <contour>
+      <point x="223" y="620" type="line"/>
+      <point x="223" y="635" type="line"/>
+      <point x="238" y="635" type="line"/>
+      <point x="238" y="620" type="line"/>
+    </contour>
+    <contour>
+      <point x="193" y="560" type="line"/>
+      <point x="193" y="575" type="line"/>
+      <point x="178" y="575" type="line"/>
+      <point x="178" y="560" type="line"/>
+    </contour>
+    <contour>
+      <point x="163" y="530" type="line"/>
+      <point x="163" y="545" type="line"/>
+      <point x="148" y="545" type="line"/>
+      <point x="148" y="530" type="line"/>
+    </contour>
+    <contour>
+      <point x="358" y="620" type="line"/>
+      <point x="373" y="620" type="line"/>
+      <point x="373" y="605" type="line"/>
+      <point x="358" y="605" type="line"/>
+    </contour>
+    <contour>
+      <point x="358" y="635" type="line"/>
+      <point x="358" y="650" type="line"/>
+      <point x="373" y="650" type="line"/>
+      <point x="373" y="635" type="line"/>
+    </contour>
+    <contour>
+      <point x="343" y="635" type="line"/>
+      <point x="358" y="635" type="line"/>
+      <point x="358" y="620" type="line"/>
+      <point x="343" y="620" type="line"/>
+    </contour>
+    <contour>
+      <point x="343" y="635" type="line"/>
+      <point x="328" y="635" type="line"/>
+      <point x="328" y="650" type="line"/>
+      <point x="343" y="650" type="line"/>
+    </contour>
+    <contour>
+      <point x="403" y="620" type="line"/>
+      <point x="403" y="605" type="line"/>
+      <point x="388" y="605" type="line"/>
+      <point x="388" y="620" type="line"/>
+    </contour>
+    <contour>
+      <point x="418" y="620" type="line"/>
+      <point x="433" y="620" type="line"/>
+      <point x="433" y="605" type="line"/>
+      <point x="418" y="605" type="line"/>
+    </contour>
+    <contour>
+      <point x="418" y="635" type="line"/>
+      <point x="418" y="650" type="line"/>
+      <point x="433" y="650" type="line"/>
+      <point x="433" y="635" type="line"/>
+    </contour>
+    <contour>
+      <point x="403" y="635" type="line"/>
+      <point x="418" y="635" type="line"/>
+      <point x="418" y="620" type="line"/>
+      <point x="403" y="620" type="line"/>
+    </contour>
+    <contour>
+      <point x="403" y="635" type="line"/>
+      <point x="388" y="635" type="line"/>
+      <point x="388" y="650" type="line"/>
+      <point x="403" y="650" type="line"/>
+    </contour>
+    <contour>
+      <point x="463" y="485" type="line"/>
+      <point x="478" y="485" type="line"/>
+      <point x="478" y="470" type="line"/>
+      <point x="463" y="470" type="line"/>
+    </contour>
+    <contour>
+      <point x="96" y="425" type="line"/>
+      <point x="96" y="440" type="line"/>
+      <point x="81" y="440" type="line"/>
+      <point x="81" y="425" type="line"/>
+    </contour>
+    <contour>
+      <point x="96" y="425" type="line"/>
+      <point x="96" y="410" type="line"/>
+      <point x="111" y="410" type="line"/>
+      <point x="111" y="425" type="line"/>
+    </contour>
+    <contour>
+      <point x="141" y="380" type="line"/>
+      <point x="141" y="395" type="line"/>
+      <point x="126" y="395" type="line"/>
+      <point x="126" y="380" type="line"/>
+    </contour>
+    <contour>
+      <point x="218" y="20" type="line"/>
+      <point x="218" y="35" type="line"/>
+      <point x="203" y="35" type="line"/>
+      <point x="203" y="20" type="line"/>
+    </contour>
+    <contour>
+      <point x="248" y="20" type="line"/>
+      <point x="248" y="35" type="line"/>
+      <point x="233" y="35" type="line"/>
+      <point x="233" y="20" type="line"/>
+    </contour>
+    <contour>
+      <point x="278" y="20" type="line"/>
+      <point x="278" y="35" type="line"/>
+      <point x="263" y="35" type="line"/>
+      <point x="263" y="20" type="line"/>
+    </contour>
+    <contour>
+      <point x="308" y="20" type="line"/>
+      <point x="308" y="35" type="line"/>
+      <point x="293" y="35" type="line"/>
+      <point x="293" y="20" type="line"/>
+    </contour>
+    <contour>
+      <point x="338" y="20" type="line"/>
+      <point x="338" y="35" type="line"/>
+      <point x="323" y="35" type="line"/>
+      <point x="323" y="20" type="line"/>
+    </contour>
+    <contour>
+      <point x="368" y="20" type="line"/>
+      <point x="368" y="35" type="line"/>
+      <point x="353" y="35" type="line"/>
+      <point x="353" y="20" type="line"/>
+    </contour>
+    <contour>
+      <point x="398" y="20" type="line"/>
+      <point x="398" y="35" type="line"/>
+      <point x="383" y="35" type="line"/>
+      <point x="383" y="20" type="line"/>
+    </contour>
+    <contour>
+      <point x="128" y="50" type="line"/>
+      <point x="128" y="65" type="line"/>
+      <point x="113" y="65" type="line"/>
+      <point x="113" y="50" type="line"/>
+    </contour>
+    <contour>
+      <point x="188" y="50" type="line"/>
+      <point x="188" y="65" type="line"/>
+      <point x="173" y="65" type="line"/>
+      <point x="173" y="50" type="line"/>
+    </contour>
+    <contour>
+      <point x="248" y="50" type="line"/>
+      <point x="248" y="65" type="line"/>
+      <point x="233" y="65" type="line"/>
+      <point x="233" y="50" type="line"/>
+    </contour>
+    <contour>
+      <point x="278" y="50" type="line"/>
+      <point x="278" y="65" type="line"/>
+      <point x="263" y="65" type="line"/>
+      <point x="263" y="50" type="line"/>
+    </contour>
+    <contour>
+      <point x="308" y="50" type="line"/>
+      <point x="308" y="65" type="line"/>
+      <point x="293" y="65" type="line"/>
+      <point x="293" y="50" type="line"/>
+    </contour>
+    <contour>
+      <point x="323" y="65" type="line"/>
+      <point x="323" y="50" type="line"/>
+      <point x="338" y="50" type="line"/>
+      <point x="338" y="65" type="line"/>
+    </contour>
+    <contour>
+      <point x="353" y="65" type="line"/>
+      <point x="353" y="80" type="line"/>
+      <point x="338" y="80" type="line"/>
+      <point x="338" y="65" type="line"/>
+    </contour>
+    <contour>
+      <point x="338" y="80" type="line"/>
+      <point x="338" y="95" type="line"/>
+      <point x="323" y="95" type="line"/>
+      <point x="323" y="80" type="line"/>
+    </contour>
+    <contour>
+      <point x="353" y="80" type="line"/>
+      <point x="368" y="80" type="line"/>
+      <point x="368" y="95" type="line"/>
+      <point x="353" y="95" type="line"/>
+    </contour>
+    <contour>
+      <point x="353" y="65" type="line"/>
+      <point x="353" y="50" type="line"/>
+      <point x="368" y="50" type="line"/>
+      <point x="368" y="65" type="line"/>
+    </contour>
+    <contour>
+      <point x="158" y="80" type="line"/>
+      <point x="158" y="95" type="line"/>
+      <point x="143" y="95" type="line"/>
+      <point x="143" y="80" type="line"/>
+    </contour>
+    <contour>
+      <point x="188" y="80" type="line"/>
+      <point x="188" y="95" type="line"/>
+      <point x="173" y="95" type="line"/>
+      <point x="173" y="80" type="line"/>
+    </contour>
+    <contour>
+      <point x="218" y="80" type="line"/>
+      <point x="218" y="95" type="line"/>
+      <point x="203" y="95" type="line"/>
+      <point x="203" y="80" type="line"/>
+    </contour>
+    <contour>
+      <point x="248" y="80" type="line"/>
+      <point x="248" y="95" type="line"/>
+      <point x="233" y="95" type="line"/>
+      <point x="233" y="80" type="line"/>
+    </contour>
+    <contour>
+      <point x="278" y="80" type="line"/>
+      <point x="278" y="95" type="line"/>
+      <point x="263" y="95" type="line"/>
+      <point x="263" y="80" type="line"/>
+    </contour>
+    <contour>
+      <point x="308" y="80" type="line"/>
+      <point x="308" y="95" type="line"/>
+      <point x="293" y="95" type="line"/>
+      <point x="293" y="80" type="line"/>
+    </contour>
+    <contour>
+      <point x="128" y="110" type="line"/>
+      <point x="128" y="125" type="line"/>
+      <point x="113" y="125" type="line"/>
+      <point x="113" y="110" type="line"/>
+    </contour>
+    <contour>
+      <point x="188" y="110" type="line"/>
+      <point x="188" y="125" type="line"/>
+      <point x="173" y="125" type="line"/>
+      <point x="173" y="110" type="line"/>
+    </contour>
+    <contour>
+      <point x="218" y="110" type="line"/>
+      <point x="218" y="125" type="line"/>
+      <point x="203" y="125" type="line"/>
+      <point x="203" y="110" type="line"/>
+    </contour>
+    <contour>
+      <point x="98" y="140" type="line"/>
+      <point x="98" y="155" type="line"/>
+      <point x="83" y="155" type="line"/>
+      <point x="83" y="140" type="line"/>
+    </contour>
+    <contour>
+      <point x="128" y="140" type="line"/>
+      <point x="128" y="155" type="line"/>
+      <point x="113" y="155" type="line"/>
+      <point x="113" y="140" type="line"/>
+    </contour>
+    <contour>
+      <point x="158" y="140" type="line"/>
+      <point x="158" y="155" type="line"/>
+      <point x="143" y="155" type="line"/>
+      <point x="143" y="140" type="line"/>
+    </contour>
+    <contour>
+      <point x="188" y="140" type="line"/>
+      <point x="188" y="155" type="line"/>
+      <point x="173" y="155" type="line"/>
+      <point x="173" y="140" type="line"/>
+    </contour>
+    <contour>
+      <point x="93" y="170" type="line"/>
+      <point x="93" y="185" type="line"/>
+      <point x="78" y="185" type="line"/>
+      <point x="78" y="170" type="line"/>
+    </contour>
+    <contour>
+      <point x="123" y="170" type="line"/>
+      <point x="123" y="185" type="line"/>
+      <point x="108" y="185" type="line"/>
+      <point x="108" y="170" type="line"/>
+    </contour>
+    <contour>
+      <point x="153" y="170" type="line"/>
+      <point x="153" y="185" type="line"/>
+      <point x="138" y="185" type="line"/>
+      <point x="138" y="170" type="line"/>
+    </contour>
+    <contour>
+      <point x="63" y="200" type="line"/>
+      <point x="63" y="215" type="line"/>
+      <point x="48" y="215" type="line"/>
+      <point x="48" y="200" type="line"/>
+    </contour>
+    <contour>
+      <point x="93" y="200" type="line"/>
+      <point x="93" y="215" type="line"/>
+      <point x="78" y="215" type="line"/>
+      <point x="78" y="200" type="line"/>
+    </contour>
+    <contour>
+      <point x="123" y="200" type="line"/>
+      <point x="123" y="215" type="line"/>
+      <point x="108" y="215" type="line"/>
+      <point x="108" y="200" type="line"/>
+    </contour>
+    <contour>
+      <point x="93" y="230" type="line"/>
+      <point x="93" y="245" type="line"/>
+      <point x="78" y="245" type="line"/>
+      <point x="78" y="230" type="line"/>
+    </contour>
+    <contour>
+      <point x="123" y="230" type="line"/>
+      <point x="123" y="245" type="line"/>
+      <point x="108" y="245" type="line"/>
+      <point x="108" y="230" type="line"/>
+    </contour>
+    <contour>
+      <point x="153" y="230" type="line"/>
+      <point x="153" y="245" type="line"/>
+      <point x="138" y="245" type="line"/>
+      <point x="138" y="230" type="line"/>
+    </contour>
+    <contour>
+      <point x="81" y="260" type="line"/>
+      <point x="81" y="275" type="line"/>
+      <point x="66" y="275" type="line"/>
+      <point x="66" y="260" type="line"/>
+    </contour>
+    <contour>
+      <point x="111" y="260" type="line"/>
+      <point x="111" y="275" type="line"/>
+      <point x="96" y="275" type="line"/>
+      <point x="96" y="260" type="line"/>
+    </contour>
+    <contour>
+      <point x="141" y="260" type="line"/>
+      <point x="141" y="275" type="line"/>
+      <point x="126" y="275" type="line"/>
+      <point x="126" y="260" type="line"/>
+    </contour>
+    <contour>
+      <point x="171" y="260" type="line"/>
+      <point x="171" y="275" type="line"/>
+      <point x="156" y="275" type="line"/>
+      <point x="156" y="260" type="line"/>
+    </contour>
+    <contour>
+      <point x="111" y="290" type="line"/>
+      <point x="111" y="305" type="line"/>
+      <point x="96" y="305" type="line"/>
+      <point x="96" y="290" type="line"/>
+    </contour>
+    <contour>
+      <point x="126" y="305" type="line"/>
+      <point x="126" y="290" type="line"/>
+      <point x="141" y="290" type="line"/>
+      <point x="141" y="305" type="line"/>
+    </contour>
+    <contour>
+      <point x="156" y="305" type="line"/>
+      <point x="156" y="320" type="line"/>
+      <point x="141" y="320" type="line"/>
+      <point x="141" y="305" type="line"/>
+    </contour>
+    <contour>
+      <point x="141" y="320" type="line"/>
+      <point x="141" y="335" type="line"/>
+      <point x="126" y="335" type="line"/>
+      <point x="126" y="320" type="line"/>
+    </contour>
+    <contour>
+      <point x="156" y="320" type="line"/>
+      <point x="171" y="320" type="line"/>
+      <point x="171" y="335" type="line"/>
+      <point x="156" y="335" type="line"/>
+    </contour>
+    <contour>
+      <point x="156" y="305" type="line"/>
+      <point x="156" y="290" type="line"/>
+      <point x="171" y="290" type="line"/>
+      <point x="171" y="305" type="line"/>
+    </contour>
+    <contour>
+      <point x="576" y="395" type="line"/>
+      <point x="576" y="406" type="line"/>
+      <point x="591" y="406" type="line"/>
+      <point x="591" y="395" type="line"/>
+    </contour>
+    <contour>
+      <point x="606" y="395" type="line"/>
+      <point x="606" y="406" type="line"/>
+      <point x="621" y="406" type="line"/>
+      <point x="621" y="395" type="line"/>
+    </contour>
+    <contour>
+      <point x="351" y="305" type="line"/>
+      <point x="366" y="305" type="line"/>
+      <point x="366" y="298" type="line"/>
+      <point x="351" y="298" type="line"/>
+    </contour>
+    <contour>
+      <point x="321" y="305" type="line"/>
+      <point x="336" y="305" type="line"/>
+      <point x="336" y="298" type="line"/>
+      <point x="321" y="298" type="line"/>
+    </contour>
+    <contour>
+      <point x="381" y="260" type="line"/>
+      <point x="381" y="250" type="line"/>
+      <point x="393" y="250" type="line"/>
+      <point x="393" y="245" type="line"/>
+      <point x="378" y="245" type="line"/>
+      <point x="378" y="250" type="line"/>
+      <point x="378" y="250" type="line"/>
+      <point x="378" y="260" type="line"/>
+    </contour>
+    <contour>
+      <point x="521" y="635" type="qcurve"/>
+      <point x="508" y="635" type="line"/>
+      <point x="508" y="648" type="line"/>
+      <point x="515" y="642"/>
+    </contour>
+    <contour>
+      <point x="363" y="200" type="line"/>
+      <point x="363" y="185" type="line"/>
+      <point x="357" y="185" type="line"/>
+      <point x="359" y="192"/>
+      <point x="359" y="200" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="381" y="290" type="line"/>
+      <point x="381" y="275" type="line"/>
+      <point x="378" y="275" type="line"/>
+      <point x="378" y="290" type="line"/>
+    </contour>
+    <contour>
+      <point x="478" y="665" type="line"/>
+      <point x="478" y="670" type="line"/>
+      <point x="482" y="668"/>
+      <point x="486" y="665" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="253" y="698" type="qcurve"/>
+      <point x="253" y="695" type="line"/>
+      <point x="241" y="695" type="line"/>
+      <point x="247" y="697"/>
+    </contour>
+    <contour>
+      <point x="363" y="245" type="line"/>
+      <point x="360" y="245" type="line"/>
+      <point x="360" y="250" type="line"/>
+      <point x="363" y="250" type="line"/>
+    </contour>
+  </outline>
+</glyph>

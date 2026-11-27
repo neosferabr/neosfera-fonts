@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cedilla" format="2">
+  <advance width="251"/>
+  <unicode hex="00B8"/>
+  <outline>
+    <contour>
+      <point x="108" y="15" type="line" smooth="yes"/>
+      <point x="108.0" y="21.0"/>
+      <point x="117.0" y="30.0"/>
+      <point x="123.0" y="30.0" type="qcurve" smooth="yes"/>
+      <point x="177" y="30" type="line" smooth="yes"/>
+      <point x="183.0" y="30.0"/>
+      <point x="192.0" y="21.0"/>
+      <point x="192.0" y="15.0" type="qcurve" smooth="yes"/>
+      <point x="192" y="-60" type="line" smooth="yes"/>
+      <point x="192" y="-83"/>
+      <point x="188" y="-99" type="qcurve" smooth="yes"/>
+      <point x="182" y="-122"/>
+      <point x="165" y="-135" type="qcurve" smooth="yes"/>
+      <point x="151" y="-146"/>
+      <point x="130" y="-149" type="qcurve" smooth="yes"/>
+      <point x="121" y="-150"/>
+      <point x="103" y="-150" type="qcurve" smooth="yes"/>
+      <point x="100" y="-150" type="line"/>
+      <point x="74" y="-150" type="line" smooth="yes"/>
+      <point x="68.0" y="-150.0"/>
+      <point x="59.0" y="-141.0"/>
+      <point x="59.0" y="-135.0" type="qcurve" smooth="yes"/>
+      <point x="59" y="-81" type="line" smooth="yes"/>
+      <point x="59.0" y="-75.0"/>
+      <point x="68.0" y="-66.0"/>
+      <point x="74.0" y="-66.0" type="qcurve" smooth="yes"/>
+      <point x="100" y="-66" type="line"/>
+      <point x="100" y="-66" type="line"/>
+      <point x="100" y="-66" type="line"/>
+      <point x="103.0" y="-66.0"/>
+      <point x="108.0" y="-61.0"/>
+      <point x="108.0" y="-58.0" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

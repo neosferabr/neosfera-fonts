@@ -866,6 +866,28 @@ def g_hungarumlaut_mod(): return G(solid=[m_hungarumlaut(True)])
 def g_cedilla_mod(): return G(solid=[m_cedilla()])
 def g_ogonek_mod(): return G(solid=[m_ogonek()])
 
+# Marcas combinantes (zero-width, U+0300..U+0328)
+def g_gravecomb(): return G(solid=[m_grave(False)])
+def g_acutecomb(): return G(solid=[m_acute(False)])
+def g_circumflexcomb(): return G(solid=[m_circ(False)])
+def g_tildecomb(): return G(solid=[m_tilde(False)])
+def g_macroncomb(): return G(solid=[m_macron(False)])
+def g_brevecomb(): return G(solid=[m_breve(False)])
+def g_dotaccentcomb(): return G(solid=[m_dotaccent(False)])
+def g_dieresiscomb(): return G(solid=[m_dieresis(False)])
+def g_ringcomb(): return G(solid=[m_ring(False)])
+def g_hungarumlautcomb(): return G(solid=[m_hungarumlaut(False)])
+def g_caroncomb(): return G(solid=[m_caron(False)])
+def g_commaaccentcomb(): return G(solid=[m_commabelow()])
+def g_cedillacomb(): return G(solid=[m_cedilla()])
+def g_ogonekcomb(): return G(solid=[m_ogonek()])
+
+COMBINING_MARKS = {
+    'gravecomb', 'acutecomb', 'circumflexcomb', 'tildecomb', 'macroncomb',
+    'brevecomb', 'dotaccentcomb', 'dieresiscomb', 'ringcomb', 'hungarumlautcomb',
+    'caroncomb', 'commaaccentcomb', 'cedillacomb', 'ogonekcomb',
+}
+
 MARKS = {
     'acute': m_acute, 'grave': m_grave, 'circumflex': m_circ, 'tilde': m_tilde,
     'dieresis': m_dieresis, 'ring': m_ring, 'macron': m_macron, 'breve': m_breve,
@@ -1000,6 +1022,10 @@ BASE = {
     'grave': g_grave_mod, 'acute': g_acute_mod, 'circumflex': g_circumflex_mod, 'tilde': g_tilde_mod,
     'dieresis': g_dieresis_mod, 'macron': g_macron_mod, 'breve': g_breve_mod, 'dotaccent': g_dotaccent_mod,
     'ring': g_ring_mod, 'caron': g_caron_mod, 'hungarumlaut': g_hungarumlaut_mod, 'cedilla': g_cedilla_mod, 'ogonek': g_ogonek_mod,
+    'gravecomb': g_gravecomb, 'acutecomb': g_acutecomb, 'circumflexcomb': g_circumflexcomb, 'tildecomb': g_tildecomb,
+    'macroncomb': g_macroncomb, 'brevecomb': g_brevecomb, 'dotaccentcomb': g_dotaccentcomb, 'dieresiscomb': g_dieresiscomb,
+    'ringcomb': g_ringcomb, 'hungarumlautcomb': g_hungarumlautcomb, 'caroncomb': g_caroncomb,
+    'commaaccentcomb': g_commaaccentcomb, 'cedillacomb': g_cedillacomb, 'ogonekcomb': g_ogonekcomb,
 }
 
 UNI = {
@@ -1055,6 +1081,10 @@ UNI = {
     'Zacute': 0x0179, 'zacute': 0x017A, 'Zdotaccent': 0x017B, 'zdotaccent': 0x017C, 'Zcaron': 0x017D, 'zcaron': 0x017E,
     'florin': 0x0192, 'uni0218': 0x0218, 'uni0219': 0x0219, 'uni021A': 0x021A, 'uni021B': 0x021B,
     'uni0237': 0x0237,
+    'gravecomb': 0x0300, 'acutecomb': 0x0301, 'circumflexcomb': 0x0302, 'tildecomb': 0x0303,
+    'macroncomb': 0x0304, 'brevecomb': 0x0306, 'dotaccentcomb': 0x0307, 'dieresiscomb': 0x0308,
+    'ringcomb': 0x030A, 'hungarumlautcomb': 0x030B, 'caroncomb': 0x030C,
+    'commaaccentcomb': 0x0326, 'cedillacomb': 0x0327, 'ogonekcomb': 0x0328,
     'circumflex': 0x02C6, 'caron': 0x02C7, 'breve': 0x02D8, 'dotaccent': 0x02D9,
     'ring': 0x02DA, 'ogonek': 0x02DB, 'tilde': 0x02DC, 'hungarumlaut': 0x02DD,
     'Wgrave': 0x1E80, 'wgrave': 0x1E81, 'Wacute': 0x1E82, 'wacute': 0x1E83, 'Wdieresis': 0x1E84, 'wdieresis': 0x1E85,

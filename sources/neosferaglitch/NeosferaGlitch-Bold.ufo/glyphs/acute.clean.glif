@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acute.clean" format="2">
+  <advance width="243"/>
+  <outline>
+    <contour>
+      <point x="132" y="649" type="line"/>
+      <point x="7" y="592" type="line"/>
+      <point x="7" y="689" type="line"/>
+      <point x="102" y="738" type="line"/>
+      <point x="102" y="725" type="line"/>
+      <point x="132" y="725" type="line"/>
+      <point x="132" y="695" type="line"/>
+      <point x="162" y="695" type="line"/>
+      <point x="162" y="725" type="line"/>
+      <point x="192" y="725" type="line"/>
+      <point x="192" y="695" type="line"/>
+      <point x="162" y="695" type="line"/>
+      <point x="162" y="665" type="line"/>
+      <point x="132" y="665" type="line"/>
+    </contour>
+    <contour>
+      <point x="132" y="665" type="line"/>
+      <point x="132" y="695" type="line"/>
+      <point x="102" y="695" type="line"/>
+      <point x="102" y="665" type="line"/>
+    </contour>
+    <contour>
+      <point x="42" y="695" type="line"/>
+      <point x="42" y="665" type="line"/>
+      <point x="72" y="665" type="line"/>
+      <point x="72" y="695" type="line"/>
+    </contour>
+    <contour>
+      <point x="167" y="665" type="line"/>
+      <point x="162" y="663" type="line"/>
+      <point x="162" y="665" type="line"/>
+    </contour>
+  </outline>
+</glyph>

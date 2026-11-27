@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="icircumflex" format="2">
+  <advance width="168"/>
+  <unicode hex="00EE"/>
+  <outline>
+    <contour>
+      <point x="70" y="10" type="line"/>
+      <point x="69.0" y="6.0"/>
+      <point x="62.0" y="0.0"/>
+      <point x="58.0" y="0.0" type="qcurve" smooth="yes"/>
+      <point x="18" y="0" type="line" smooth="yes"/>
+      <point x="14.0" y="0.0"/>
+      <point x="9.0" y="6.0"/>
+      <point x="10.0" y="10.0" type="qcurve"/>
+      <point x="98" y="510" type="line"/>
+      <point x="99.0" y="514.0"/>
+      <point x="106.0" y="520.0"/>
+      <point x="110.0" y="520.0" type="qcurve" smooth="yes"/>
+      <point x="150" y="520" type="line" smooth="yes"/>
+      <point x="154.0" y="520.0"/>
+      <point x="159.0" y="514.0"/>
+      <point x="158.0" y="510.0" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="122" y="727" type="line" smooth="yes"/>
+      <point x="126" y="730"/>
+      <point x="130" y="730" type="qcurve" smooth="yes"/>
+      <point x="204" y="730" type="line" smooth="yes"/>
+      <point x="208" y="730"/>
+      <point x="210" y="727" type="qcurve"/>
+      <point x="305" y="621" type="line"/>
+      <point x="308" y="618"/>
+      <point x="306.0" y="610.0"/>
+      <point x="299.0" y="604.0"/>
+      <point x="295.0" y="604.0" type="qcurve" smooth="yes"/>
+      <point x="243" y="604" type="line" smooth="yes"/>
+      <point x="239" y="604"/>
+      <point x="236" y="607" type="qcurve"/>
+      <point x="164" y="688" type="line"/>
+      <point x="162.0" y="689.0"/>
+      <point x="157.0" y="689.0"/>
+      <point x="155.0" y="688.0" type="qcurve"/>
+      <point x="54" y="607" type="line"/>
+      <point x="51" y="604"/>
+      <point x="47" y="604" type="qcurve" smooth="yes"/>
+      <point x="-6" y="604" type="line" smooth="yes"/>
+      <point x="-10" y="604"/>
+      <point x="-13" y="607" type="qcurve"/>
+      <point x="-15.0" y="610.0"/>
+      <point x="-13.0" y="618.0"/>
+      <point x="-10.0" y="621.0" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

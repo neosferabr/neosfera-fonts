@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guilsinglright" format="2">
+  <advance width="285"/>
+  <unicode hex="203A"/>
+  <outline>
+    <contour>
+      <point x="36" y="397" type="line"/>
+      <point x="32.0" y="402.0"/>
+      <point x="32.0" y="413.0"/>
+      <point x="36.0" y="417.0" type="qcurve" smooth="yes"/>
+      <point x="64" y="443" type="line" smooth="yes"/>
+      <point x="68.0" y="447.0"/>
+      <point x="80.0" y="446.0"/>
+      <point x="84.0" y="442.0" type="qcurve" smooth="yes"/>
+      <point x="244" y="270" type="line"/>
+      <point x="247.0" y="265.0"/>
+      <point x="247.0" y="255.0"/>
+      <point x="244.0" y="250.0" type="qcurve"/>
+      <point x="84" y="78" type="line" smooth="yes"/>
+      <point x="80.0" y="74.0"/>
+      <point x="68.0" y="73.0"/>
+      <point x="64.0" y="77.0" type="qcurve" smooth="yes"/>
+      <point x="36" y="103" type="line" smooth="yes"/>
+      <point x="32.0" y="107.0"/>
+      <point x="32.0" y="118.0"/>
+      <point x="36.0" y="123.0" type="qcurve"/>
+      <point x="158" y="255" type="line" smooth="yes"/>
+      <point x="160.0" y="257.0"/>
+      <point x="160.0" y="263.0"/>
+      <point x="158.0" y="265.0" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

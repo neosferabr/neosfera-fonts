@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macroncomb" format="2">
+  <unicode hex="0304"/>
+  <outline>
+    <contour>
+      <point x="-275" y="693" type="line" smooth="yes"/>
+      <point x="-275.0" y="696.0"/>
+      <point x="-272.0" y="703.0"/>
+      <point x="-267.0" y="708.0"/>
+      <point x="-261.0" y="711.0"/>
+      <point x="-257.0" y="711.0" type="qcurve" smooth="yes"/>
+      <point x="-23" y="711" type="line" smooth="yes"/>
+      <point x="-19.0" y="711.0"/>
+      <point x="-13.0" y="708.0"/>
+      <point x="-8.0" y="703.0"/>
+      <point x="-5.0" y="696.0"/>
+      <point x="-5.0" y="693.0" type="qcurve" smooth="yes"/>
+      <point x="-5" y="633" type="line" smooth="yes"/>
+      <point x="-5.0" y="630.0"/>
+      <point x="-8.0" y="623.0"/>
+      <point x="-13.0" y="618.0"/>
+      <point x="-19.0" y="615.0"/>
+      <point x="-23.0" y="615.0" type="qcurve" smooth="yes"/>
+      <point x="-257" y="615" type="line" smooth="yes"/>
+      <point x="-261.0" y="615.0"/>
+      <point x="-267.0" y="618.0"/>
+      <point x="-272.0" y="623.0"/>
+      <point x="-275.0" y="630.0"/>
+      <point x="-275.0" y="633.0" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>
